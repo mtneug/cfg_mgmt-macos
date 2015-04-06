@@ -1,0 +1,7 @@
+  
+  com.apple.assistant:
+    "Output Voice":
+      Custom: yes
+      Gender: 0
+      Language: "de-DE"
+    "Session Language": "de-DE"

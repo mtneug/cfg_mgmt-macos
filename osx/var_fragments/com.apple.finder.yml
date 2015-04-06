@@ -1,0 +1,180 @@
+  
+  com.apple.finder:
+    # Default view style of Finder. Posible values:
+    #
+    #   Flwv => Cover Flow View
+    #   Nlsv => List View
+    #   clmv => Column View
+    #   icnv => Icon View
+    FXPreferredViewStyle: clmv
+
+    FXArrangeGroupViewBy: Name
+    FXPreferredGroupBy: Name
+    FXMyDocumentsArrangeGroupViewBy: Date Last Opened
+    FXDefaultSearchScope: SCcf
+
+    LastTrashState: no
+
+    DisableAllAnimations: no
+
+    ShowExternalHardDrivesOnDesktop: yes
+    ShowHardDrivesOnDesktop: yes
+    ShowRemovableMediaOnDesktop: yes
+    ShowMountedServersOnDesktop: yes
+
+    AppleShowAllFiles: yes
+
+    NewWindowTarget: PfHm
+    NewWindowTargetPath: file:///Users/{{ ansible_ssh_user }}/
+
+    NSNavBrowserPreferedColumnContentWidth: 186
+
+    FK_SidebarWidth: 192
+
+    # Settings for each view style
+    StandardViewSettings:
+      SettingsType: StandardViewSettings
+
+      # Settings for Extended List View
+      ExtendedListViewSettings:
+        calculateAllSizes: no
+
+        # Icon size
+        iconSize: 16
+
+        # Text font size
+        textSize: 12
+
+        # Display a preview
+        showIconPreview: yes
+
+        # Column to sort after
+        sortColumn: name
+
+        # Display dates in relative format
+        useRelativeDates: yes
+
+      # Settings for Icon View
+      IconViewSettings:
+        # Group files together by
+        arrangeBy: none
+
+        # Background
+        backgroundType: 0
+        backgroundColorRed: 1.0
+        backgroundColorGreen: 1.0
+        backgroundColorBlue: 1.0
+
+        # Grid options
+        gridOffsetX: 0.0
+        gridOffsetY: 0.0
+        gridSpacing: 54.0
+
+        # Icon size
+        iconSize: 64.0
+
+        # Text font size
+        textSize: 12.0
+
+        # Display label on the bottom of the file instead of to the right
+        labelOnBottom: yes
+
+        # Display a preview
+        showIconPreview: yes
+
+        #
+        showItemInfo: no
+
+      # Settings for List View
+      ListViewSettings:
+        calculateAllSizes: no
+
+        # Icon size
+        iconSize: 16
+
+        # Text font size
+        textSize: 12
+
+        # Display a preview
+        showIconPreview: yes
+
+        # Column to sort after
+        sortColumn: name
+
+        # Display dates in relative format
+        useRelativeDates: yes
+
+    StandardViewOptions:
+      ColumnViewOptions:
+        ArrangeBy: dnam
+        ColumnShowFolderArrow: yes
+        ColumnShowIcons: yes
+        ColumnWidth: 205
+        FontSize: 12
+        PreviewDisclosureState: yes
+        SharedArrangeBy: kipl
+        ShowIconThumbnails: yes
+        ShowPreview: yes
+
+    ComputerViewSettings:
+      WindowState:
+        ContainerShowSidebar: yes
+        PreviewPaneVisibility: yes
+        ShowPathbar: yes
+        ShowSidebar: yes
+        ShowStatusBar: no
+        ShowTabView: no
+        ShowToolbar: yes
+        SidebarWidth: 158
+
+    TrashViewSettings:
+      WindowState:
+        ContainerShowSidebar: yes
+        PreviewPaneVisibility: yes
+        ShowPathbar: yes
+        ShowSidebar: yes
+        ShowStatusBar: no
+        ShowTabView: no
+        ShowToolbar: yes
+        SidebarWidth: 158
+
+    MyDocsLibrarySearchViewSettings:
+      WindowState:
+        ContainerShowSidebar: yes
+        PreviewPaneVisibility: yes
+        ShowPathbar: yes
+        ShowSidebar: yes
+        ShowStatusBar: no
+        ShowTabView: no
+        ShowToolbar: yes
+        SidebarWidth: 158
+
+    MeetingRoomViewSetting:
+      WindowState:
+        ContainerShowSidebar: yes
+        PreviewPaneVisibility: yes
+        ShowPathbar: yes
+        ShowSidebar: yes
+        ShowStatusBar: no
+        ShowTabView: no
+        ShowToolbar: yes
+        SidebarWidth: 158
+
+    DesktopViewSettings:
+      IconViewSettings:
+        showItemInfo: no
+        labelOnBottom: no
+        showIconPreview: yes
+
+        backgroundColorBlue: 1.0
+        backgroundColorGreen: 1.0
+        backgroundColorRed: 1.0
+        backgroundType: 0
+
+        iconSize: 44.0
+        textSize: 12.0
+
+        arrangeBy: grid
+        gridOffsetX: 0.0
+        gridOffsetY: 0.0
+        gridSpacing: 55.0

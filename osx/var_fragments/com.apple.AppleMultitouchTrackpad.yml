@@ -1,0 +1,40 @@
+  
+  com.apple.AppleMultitouchTrackpad:
+    ActuateDetents: 1
+    Clicking: yes
+    DragLock: 0
+    Dragging: 0
+    ForceSuppressed: no
+    QuickActionMenuGesture: 2
+
+    FirstClickThreshold: 1
+    SecondClickThreshold: 1
+
+    TrackpadCornerSecondaryClick: 0
+
+    TrackpadHorizScroll: 1
+    TrackpadRotate: 1
+
+    TrackpadHandResting: yes
+    TrackpadPinch: yes
+    TrackpadRightClick: yes
+    TrackpadScroll: yes
+    TrackpadMomentumScroll: yes
+
+    TrackpadTwoFingerDoubleTapGesture: 1
+    TrackpadTwoFingerFromRightEdgeSwipeGesture: 3
+
+    TrackpadThreeFingerDrag: no
+    TrackpadThreeFingersRightClick: no
+    TrackpadThreeFingerHorizSwipeGesture: 2
+    TrackpadThreeFingerTapGesture: 0
+    TrackpadThreeFingerVertSwipeGesture: 0
+
+    TrackpadFourFingerHorizSwipeGesture: 2
+    TrackpadFourFingerPinchGesture: 2
+    TrackpadFourFingerVertSwipeGesture: 2
+
+    TrackpadFiveFingerPinchGesture: 2
+
+    USBMouseStopsTrackpad: 0
+    UserPreferences: yes
