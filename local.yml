@@ -1,4 +1,6 @@
 ---
 
 - include: pre.yml
-- include: osx/config.yml
+- include: osx/all.yml
+#- include: cli/all.yml
+#- include: apps/all.yml

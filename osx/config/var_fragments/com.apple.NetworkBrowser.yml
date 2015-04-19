@@ -1,0 +1,13 @@
+  com.apple.NetworkBrowser:
+    # AirDrop on all interfaces
+    BrowseAllInterfaces: yes
+
+    # enable AirDrop
+    DisableAirDrop: no
+
+    # don't show this computer under shared
+    ShowThisComputer: no
+
+    # disable remote discs
+    EnableODiskBrowsing: no
+    ODSSupported: no

@@ -1,0 +1,7 @@
+  com.apple.SetupAssistant:
+    DidSeeCloudSetup: yes
+    DidSeeSyncSetup: yes
+    DidSeeSyncSetup2: yes
+    RunNonInteractive: no
+    ShowKeychainSyncBuddyAtLogin: no
+    SkipFirstLoginOptimization: no

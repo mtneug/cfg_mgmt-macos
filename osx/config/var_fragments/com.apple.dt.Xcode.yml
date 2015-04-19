@@ -1,0 +1,13 @@
+  com.apple.dt.Xcode:
+    DVTDownloadableAutomaticUpdate: yes
+    DVTFontAndColorCurrentTheme: "Default.dvtcolortheme"
+    IBAppliesAutoResizingRulesWhileResizing: no
+    IDEKeyBindingCurrentPreferenceSet: "Default.idekeybindings"
+    IDELogNavigatorGroupByKey: 0
+    Xcode3ProjectEditorSourceListVisible: no
+
+    # Always use spaces for indenting
+    DVTTextIndentUsingTabs: no
+
+    # Show tab bar
+    AlwaysShowTabBar: yes

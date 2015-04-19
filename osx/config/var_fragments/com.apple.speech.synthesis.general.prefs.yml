@@ -1,0 +1,4 @@
+  com.apple.speech.synthesis.general.prefs:
+    SpokenUIUseSpeakingHotKeyFlag: yes
+    # Alt+Esc
+    SpokenUIUseSpeakingHotKeyCombo: 2101

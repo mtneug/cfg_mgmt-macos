@@ -1,0 +1,4 @@
+  com.apple.LaunchServices:
+    # disable quarantine
+    # "Are you sure you want to open this application?"
+    LSQuarantine: no

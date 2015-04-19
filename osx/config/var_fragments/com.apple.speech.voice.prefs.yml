@@ -1,0 +1,20 @@
+  com.apple.speech.voice.prefs:
+    SelectedVoiceCreator: 1886745202
+    SelectedVoiceID: 100827421
+    SelectedVoiceName: Karen
+    VoiceRateDataArray:     
+      # Creator
+      # ID
+      # Speaking rate
+      -
+         - 1734437985
+         - 200
+         - 203
+      -
+         - 1886745202
+         - 274733789
+         - 214
+      -
+         - 1886745202
+         - 100827421
+         - 212

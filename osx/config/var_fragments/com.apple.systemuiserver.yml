@@ -1,0 +1,12 @@
+  # com.apple.systemuiserver:
+  #   # TODO
+  #   menuExtras:
+  #     - /opt/homebrew-cask/Caskroom/menumeters/latest/MenuMeters Installer.app/Contents/Resources/MenuMeters.prefPane/Contents/Resources/MenuMeterNet.menu
+  #     - /opt/homebrew-cask/Caskroom/menumeters/latest/MenuMeters Installer.app/Contents/Resources/MenuMeters.prefPane/Contents/Resources/MenuMeterMem.menu
+  #     - /opt/homebrew-cask/Caskroom/menumeters/latest/MenuMeters Installer.app/Contents/Resources/MenuMeters.prefPane/Contents/Resources/MenuMeterCPU.menu
+  #     - /System/Library/CoreServices/Menu Extras/AirPort.menu
+  #     - /System/Library/CoreServices/Menu Extras/Clock.menu
+  #     - /System/Library/CoreServices/Menu Extras/TextInput.menu
+  #     - /System/Library/CoreServices/Menu Extras/Battery.menu
+  #     - /System/Library/CoreServices/Menu Extras/User.menu
+  #     - /opt/homebrew-cask/Caskroom/menumeters/latest/MenuMeters Installer.app/Contents/Resources/MenuMeters.prefPane/Contents/Resources/MenuCracker.menu

@@ -1,0 +1,80 @@
+  com.apple.dock:
+    # left, bottom, right
+    orientation: left
+
+    # enable guestures
+    showMissionControlGestureEnabled: yes
+    showAppExposeGestureEnabled: yes
+    showDesktopGestureEnabled: yes
+    showLaunchpadGestureEnabled: yes
+
+    # normal size
+    tilesize: 36
+
+    # enlarged size
+    largesize: 60
+
+    # enable magnification
+    magnification: yes
+
+    # autohide settings
+    autohide: yes
+    autohide-delay: 0.1
+    autohide-time-modifier: 0.3
+
+    # disable hover effect for grid view
+    mouse-over-hilite-stack: no
+
+    # minimize windows to their icon
+    minimize-to-application: yes
+
+    # enable spring loading for all Dock items
+    enable-spring-load-actions-on-all-items: yes
+
+    # show indicator lights for open applications in the Dock
+    show-process-indicators: yes
+
+    # animate opening applications from the Dock
+    launchanim: yes
+
+    # Mission Control animation speed
+    expose-animation-duration: 0.1
+
+    # don’t group windows by application in Mission Control
+    expose-group-by-app: no
+
+    # don’t show Dashboard as a Space
+    dashboard-in-overlay: yes
+
+    # don’t automatically rearrange Spaces based on most recent use
+    mru-spaces: no
+
+    # disable the 2D Dock
+    no-glass: no
+
+    # make Dock icons of hidden applications translucent
+    showhidden: yes
+
+    # Hot corners
+    # Possible values:
+    #  0: no-op
+    #  2: Mission Control
+    #  3: Show application windows
+    #  4: Desktop
+    #  5: Start screen saver
+    #  6: Disable screen saver
+    #  7: Dashboard
+    # 10: Put display to sleep
+    # 11: Launchpad
+    # 12: Notification Center
+    wvous-tl-corner: 0
+    wvous-tl-modifier: 0
+
+    wvous-tr-corner: 0
+    wvous-tr-modifier: 0
+
+    wvous-bl-corner: 0
+    wvous-bl-modifier: 0
+
+    wvous-br-corner: 0
+    wvous-br-modifier: 0

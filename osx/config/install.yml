@@ -9,4 +9,4 @@
     - include_vars: /tmp/osx_config_vars.yml
 
   roles:
-    - role: ../roles/osx_config
+    - role: ../../roles/osx_config

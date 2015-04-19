@@ -1,0 +1,25 @@
+  com.apple.ActivityMonitor:
+    DisplayExpandedOnStartup: no
+    DisplayStandardOnStartup: no
+    DisplayType: 4
+    # Dockf icon = normal
+    IconType: 0
+    # Show the main window when launching Activity Monitor
+    OpenMainWindow: yes
+    # Show processes in Activity Monitor
+    # 100: All Processes
+    # 101: All Processes, Hierarchally
+    # 102: My Processes
+    # 103: System Processes
+    # 104: Other User Processes
+    # 105: Active Processes
+    # 106: Inactive Processes
+    # 106: Inactive Processes
+    # 107: Windowed Processes
+    ShowCategory: 100
+    ShowCategoryAppsinLast12Hours: 1
+    # Update Frequency: Very often (1 sec)
+    UpdatePeriod: 1
+    # Sort Activity Monitor results by CPU usage
+    SortColumn: CPUUsage
+    SortDirection: 0

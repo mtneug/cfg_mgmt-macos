@@ -1,0 +1,11 @@
+  com.apple.dashboard:
+    # Enable Dashboard
+    mcx-disabled: no
+
+    # Enable Dashboard dev mode (allows keeping widgets on the desktop)
+    devmode: yes
+
+    # 1: Disabled
+    # 2: As Space
+    # 3: Overlay
+    enabled-state: 3

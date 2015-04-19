@@ -1,0 +1,26 @@
+  com.apple.appstore:
+    # Enable Debug Menu in the Mac App Store
+    ShowDebugMenu: yes
+    # Enable the WebKit Developer Tools in the Mac App Store
+    WebKitDeveloperExtras: yes
+
+    genres.WebKit2AcceleratedDrawingEnabled: yes
+    genres.WebKit2DeveloperExtrasEnabled: yes
+    genres.WebKit2SuppressesIncrementalRendering: yes
+
+    primary.WebKit2AcceleratedDrawingEnabled: yes
+    primary.WebKit2DeveloperExtrasEnabled: yes
+    primary.WebKit2ShowsToolTipOverTruncatedText: yes
+    primary.WebKit2SuppressesIncrementalRendering: yes
+
+    purchased.WebKit2AcceleratedDrawingEnabled: yes
+    purchased.WebKit2DeveloperExtrasEnabled: yes
+    purchased.WebKit2SuppressesIncrementalRendering: yes
+
+    top-charts.WebKit2AcceleratedDrawingEnabled: yes
+    top-charts.WebKit2DeveloperExtrasEnabled: yes
+    top-charts.WebKit2SuppressesIncrementalRendering: yes
+
+    updates.WebKit2AcceleratedDrawingEnabled: yes
+    updates.WebKit2DeveloperExtrasEnabled: yes
+    updates.WebKit2SuppressesIncrementalRendering: yes

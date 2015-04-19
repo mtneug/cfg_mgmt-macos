@@ -1,0 +1,4 @@
+  com.apple.screensaver:
+    # require password 5 min after sleep or screen saver begins
+    askForPassword: 1
+    askForPasswordDelay: 300

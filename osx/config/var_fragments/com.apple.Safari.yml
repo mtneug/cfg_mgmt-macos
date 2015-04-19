@@ -1,0 +1,115 @@
+  com.apple.Safari:
+    AlwaysShowFavoritesBarInFullScreen: no
+    AlwaysShowTabBar: yes
+    AlwaysShowTabBarInFullScreen: no
+    AutoFillCreditCardData: no
+    AutoFillFromAddressBook: no
+    AutoFillMiscellaneousForms: no
+    # Don't remember passwords
+    AutoFillPasswords: no
+    # Safari opens with: A new window
+    AlwaysRestoreSessionAtLaunch: no
+    # New windows open with: Empty Page
+    NewWindowBehavior: 1
+    # New tabs open with: Empty Page
+    NewTabBehavior: 1
+    # Open pages in tabs instead of windows: automatically
+    TabCreationPolicy: 1
+    # Don't make new tabs active
+    OpenNewTabsInFront: no
+    # Command-clicking a link creates tabs
+    CommandClickMakesTabs: yes
+    # Prevent Safari from opening 'safe' files automatically after downloading
+    AutoOpenSafeDownloads: no
+    # set cookie policy "Allow from current website only"
+    BlockStoragePolicy: 1
+    ClearBrowsingDataLastIntervalUsed: "all history"
+    # disable Safari’s thumbnail cache for history and top sites
+    DebugSnapshotsUpdatePolicy: 2
+    DefaultBrowserPromptingState: 2
+    DefaultBrowserDateOfLastPrompt: '2050-01-01T00:00:00Z'
+    # don't ask to setup account in OS X during login in the browser
+    DomainsToNeverSetUp:
+      - aol.com
+      - facebook.com
+      - flickr.com
+      - google.com
+      - me.com
+      - twitter.com
+      - vimeo.com
+      - yahoo.com
+    DownloadsPath: "~/Downloads"
+    ExtensionsEnabled: yes
+    # make Safari’s search banners default to Contains instead of Starts With
+    FindOnPageMatchesWordStartsOnly: no
+    HasPendingDefaultSearchProvider: no
+    HomePage: "about:blank"
+    # enable Safari’s debug menu
+    IncludeInternalDebugMenu: yes
+    LocalFileRestrictionsEnabled: yes
+    OpenWindows:
+      - BrowserWindowControllerMac
+    # hide Safari’s bookmarks bar by default
+    ShowFavoritesBar: no
+    ShowFavoritesBar-v2: no
+    ShowSidebarInNewWindows: no
+    # hide Safari’s sidebar in Top Sites
+    ShowSidebarInTopSites: no
+    # Hide status bar
+    ShowStatusBar: no
+    ShowStatusBarInFullScreen: no
+    SidebarViewModeIdentifier: Bookmarks
+    StartPageViewControllerMode: yes
+    UserStyleSheetEnabled: no
+    WebKitPrivateBrowsingEnabled: yes
+    WebKitRespectStandardStyleKeyEquivalents: yes
+    WebKitStorageBlockingPolicy: 1
+    # enable the Develop menu and the Web Inspector in Safari
+    IncludeDevelopMenu: yes
+    WebKitDeveloperExtrasEnabledPreferenceKey: yes
+    com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled: yes
+    # allow hitting the Backspace key to go to the previous page in history
+    com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled: yes
+    com.apple.Safari.ContentPageGroupIdentifier.WebKit2PrivateBrowsingEnabled: yes
+    com.apple.Safari.ContentPageGroupIdentifier.WebKit2StorageBlockingPolicy: yes
+    com.apple.Safari.ContentPageGroupIdentifier.WebKit2UsesPageCache: yes
+
+    # Warn About Fraudulent Websites
+    WarnAboutFraudulentWebsites: yes
+
+    # Enable plug-ins
+    WebKitPluginsEnabled: yes
+    com.apple.Safari.ContentPageGroupIdentifier.WebKit2PluginsEnabled: yes
+
+    # Disable Java
+    WebKitJavaEnabled: no
+    com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaEnabled: no
+
+    # Enable JavaScript
+    WebKitJavaScriptEnabled: yes
+    com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaScriptEnabled: yes
+
+    # Block pop-up windows
+    WebKitJavaScriptCanOpenWindowsAutomatically: no
+    com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaScriptCanOpenWindowsAutomatically: no
+
+    # Reading list
+    com.apple.Safari.ReadingListFetcher.WebKit2PluginsEnabled: yes
+    com.apple.Safari.ReadingListFetcher.WebKit2LoadsImagesAutomatically: yes
+    com.apple.Safari.ReadingListFetcher.WebKit2LoadsSiteIconsIgnoringImageLoadingPreference: yes
+    com.apple.Safari.ReadingListFetcher.WebKit2JavaScriptEnabled: yes
+
+    # Do not track
+    SendDoNotTrackHTTPHeader: yes
+
+    # Update extensions automatically
+    InstallExtensionUpdatesAutomatically: yes
+
+    # Privacy: don't send search queries to Apple
+    UniversalSearchEnabled: no
+    SuppressSearchSuggestions: yes
+
+    PreloadTopHit: no
+    CanPromptForPushNotifications: yes
+    ShowFavoritesUnderSmartSearchField: no
+    ShowFullURLInSmartSearchField: yes

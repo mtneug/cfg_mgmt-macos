@@ -1,0 +1,9 @@
+  # com.apple.universalaccessAuthWarning:
+  #   # TODO:
+  #   com.parallels.desktop.console: 1
+  #   /Applications/Parallels Desktop.app: 1
+  #   /Applications/Parallels Desktop.app/Contents/MacOS/prl_client_app: 1
+
+  #   /Users/{{ansible_ssh_user}}/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/Resources/GoogleSoftwareUpdateAgent.app: 1
+  #   /Users/{{ansible_ssh_user}}/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/Resources/GoogleSoftwareUpdateAgent.app/Contents/MacOS/GoogleSoftwareUpdateAgent: 1
+  #   com.google.Keystone.Agent: 1

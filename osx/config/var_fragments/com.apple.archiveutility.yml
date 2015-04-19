@@ -1,0 +1,6 @@
+  com.apple.archiveutility:
+    # Move archives to trash after extraction
+    dearchive-move-after: "~/.Trash"
+
+    # Don't reveal extracted items
+    dearchive-reveal-after: no

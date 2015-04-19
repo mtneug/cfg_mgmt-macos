@@ -1,0 +1,6 @@
+  com.apple.TextEdit:
+    # Use plain text mode for new TextEdit documents
+    RichText: no
+    # Open and save files as UTF-8 in TextEdit
+    PlainTextEncoding: 4
+    PlainTextEncodingForWrite: 4

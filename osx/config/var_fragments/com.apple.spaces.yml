@@ -1,0 +1,4 @@
+  com.apple.spaces:
+    app-bindings:
+      com.apple.itunes: AllSpaces
+      org.videolan.vlc: AllSpaces

@@ -1,0 +1,23 @@
+  com.apple.mail:
+    # Enable send and reply animations in Mail.app
+    DisableReplyAnimations: no
+    DisableSendAnimations: no
+
+    # Copy email addresses as `foo@example.com` instead of `Foo Bar <foo@example.com>` in Mail.app
+    AddressesIncludeNameOnPasteboard: no
+
+    # Add the keyboard shortcut ⌘ + Enter to send an email in Mail.app
+    NSUserKeyEquivalents:
+      Send: "@\\U21a9"
+
+    # Display emails in threaded mode, sorted by date (oldest at the top)
+    DraftsViewerAttributes:
+      DisplayInThreadedMode: "yes"
+      SortedDescending: "yes"
+      SortOrder: received-date
+
+    # Disable inline attachments (just show the icons)
+    DisableInlineAttachmentViewing: yes
+
+    # Enable automatic spell checking
+    SpellCheckingBehavior: SpellCheckingEnabled

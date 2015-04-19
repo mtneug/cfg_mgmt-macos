@@ -1,0 +1,19 @@
+  com.apple.quicklook.satellite:
+    TSWPAutomaticDashSubstitution: no
+    TSWPAutomaticQuoteSubstitution: no
+    TSWPAutomaticSpellingCorrection: no
+    TSWPAutomaticTextReplacement: no
+    TSWPGrammarChecking: no
+    TSWPSpellCheckingEnabled: no
+    TWSPAutomaticallyDetectLinks: no
+    TWSPAutomaticallyDetectLists: no
+    TWSPSuperscriptNumericalSuffixes: no
+    VLCParams:
+      - --play-and-pause
+      - --no-color
+      - --no-video-title-show
+      - --verbose=4
+      - --no-sout-keep
+      - --vout=macosx
+      - --text-renderer=quartztext
+      - --extraintf=macosx_dialog_provider

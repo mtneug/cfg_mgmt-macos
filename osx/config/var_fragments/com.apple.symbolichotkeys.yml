@@ -1,0 +1,445 @@
+  # com.apple.symbolichotkeys:
+  #   # TODO:
+  #   AppleSymbolicHotKeys:     
+  #       7:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 120
+  #            - 262144
+  #           type: standard
+  #       8:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 99
+  #            - 262144
+  #           type: standard
+  #       9:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 118
+  #            - 262144
+  #           type: standard
+  #       10:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 96
+  #            - 262144
+  #           type: standard
+  #       11:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 97
+  #            - 262144
+  #           type: standard
+  #       12:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 122
+  #            - 262144
+  #           type: standard
+  #       13:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 98
+  #            - 262144
+  #           type: standard
+  #       15:
+  #         enabled: no
+  #         value:
+  #           parameters:
+  #            - 56
+  #            - 28
+  #            - 1572864
+  #           type: standard
+  #       16:
+  #         enabled: no
+  #       17:
+  #         enabled: no
+  #         value:
+  #           parameters:
+  #            - 43
+  #            - 24
+  #            - 1572864
+  #           type: standard
+  #       18:
+  #         enabled: no
+  #       19:
+  #         enabled: no
+  #         value:
+  #           parameters:
+  #            - 45
+  #            - 27
+  #            - 1572864
+  #           type: standard
+  #       20:
+  #         enabled: no
+  #       21:
+  #         enabled: no
+  #         value:
+  #           parameters:
+  #            - 56
+  #            - 28
+  #            - 1835008
+  #           type: standard
+  #       22:
+  #         enabled: no
+  #       23:
+  #         enabled: no
+  #         value:
+  #           parameters:
+  #            - 35
+  #            - 0
+  #            - 1572864
+  #           type: standard
+  #       24:
+  #         enabled: no
+  #       25:
+  #         enabled: no
+  #         value:
+  #           parameters:
+  #            - 46
+  #            - 47
+  #            - 1835008
+  #           type: standard
+  #       26:
+  #         enabled: no
+  #         value:
+  #           parameters:
+  #            - 44
+  #            - 43
+  #            - 1835008
+  #           type: standard
+  #       27:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 60
+  #            - 50
+  #            - 1048576
+  #           type: standard
+  #       28:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 51
+  #            - 20
+  #            - 1179648
+  #           type: standard
+  #       29:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 51
+  #            - 20
+  #            - 1441792
+  #           type: standard
+  #       30:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 52
+  #            - 21
+  #            - 1179648
+  #           type: standard
+  #       31:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 52
+  #            - 21
+  #            - 1441792
+  #           type: standard
+  #       32:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 126
+  #            - 2883584
+  #           type: standard
+  #       33:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 125
+  #            - 2883584
+  #           type: standard
+  #       34:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 126
+  #            - 3014656
+  #           type: standard
+  #       35:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 125
+  #            - 3014656
+  #           type: standard
+  #       36:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 103
+  #            - 0
+  #           type: standard
+  #       37:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 103
+  #            - 131072
+  #           type: standard
+  #       51:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 60
+  #            - 50
+  #            - 1572864
+  #           type: standard
+  #       52:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 100
+  #            - 2
+  #            - 1572864
+  #           type: standard
+  #       53:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 107
+  #            - 0
+  #           type: standard
+  #       54:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 113
+  #            - 0
+  #           type: standard
+  #       55:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 107
+  #            - 524288
+  #           type: standard
+  #       56:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 113
+  #            - 524288
+  #           type: standard
+  #       57:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 100
+  #            - 262144
+  #           type: standard
+  #       59:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 96
+  #            - 1048576
+  #           type: standard
+  #       60:
+  #         enabled: no
+  #         value:
+  #           parameters:
+  #            - 32
+  #            - 49
+  #            - 1835008
+  #           type: standard
+  #       61:
+  #         enabled: no
+  #         value:
+  #           parameters:
+  #            - 32
+  #            - 49
+  #            - 1966080
+  #           type: standard
+  #       62:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 111
+  #            - 0
+  #           type: standard
+  #       63:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 111
+  #            - 131072
+  #           type: standard
+  #       64:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 49
+  #            - 1048576
+  #           type: standard
+  #       65:
+  #         enabled: no
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 49
+  #            - 1572864
+  #           type: standard
+  #       79:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 123
+  #            - 2883584
+  #           type: standard
+  #       80:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 123
+  #            - 3014656
+  #           type: standard
+  #       81:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 124
+  #            - 2883584
+  #           type: standard
+  #       82:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 124
+  #            - 3014656
+  #           type: standard
+  #       98:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 47
+  #            - 44
+  #            - 1179648
+  #           type: standard
+  #       118:
+  #         enabled: no
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 18
+  #            - 262144
+  #           type: standard
+  #       119:
+  #         enabled: no
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 19
+  #            - 262144
+  #           type: standard
+  #       120:
+  #         enabled: no
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 20
+  #            - 262144
+  #           type: standard
+  #       121:
+  #         enabled: no
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 21
+  #            - 262144
+  #           type: standard
+  #       160:
+  #         enabled: no
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 65535
+  #            - 0
+  #           type: standard
+  #       162:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 96
+  #            - 1572864
+  #           type: standard
+  #       163:
+  #         enabled: no
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 65535
+  #            - 0
+  #           type: standard
+  #       164:
+  #         enabled: no
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 65535
+  #            - 0
+  #           type: standard
+  #       175:
+  #         enabled: yes
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 65535
+  #            - 0
+  #           type: standard
+  #       179:
+  #         enabled: no
+  #         value:
+  #           parameters:
+  #            - 65535
+  #            - 65535
+  #            - 0
+  #           type: standard

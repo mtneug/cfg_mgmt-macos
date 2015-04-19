@@ -1,4 +1,3 @@
-  
   com.apple.finder:
     # Default view style of Finder. Posible values:
     #
@@ -11,25 +10,123 @@
     FXArrangeGroupViewBy: Name
     FXPreferredGroupBy: Name
     FXMyDocumentsArrangeGroupViewBy: Date Last Opened
+    # Disable the warning when changing a file extension
+    FXEnableExtensionChangeWarning: no
+    # When performing a search, search the current folder by default
     FXDefaultSearchScope: SCcf
 
-    LastTrashState: no
+    # Automatically open a new Finder window when a volume is mounted
+    OpenWindowForNewRemovableDisk: yes
 
     DisableAllAnimations: no
 
+    # Finder: allow quitting via ⌘ + Q; doing so will also hide desktop icons
+    QuitMenuItem: yes
+
+    # Finder: allow text selection in Quick Look
+    QLEnableTextSelection: yes
+
+    # Enable the warning before emptying the Trash
+    WarnOnEmptyTrash: yes
+    # Empty Trash securely by default
+    EmptyTrashSecurely: yes
+
+    # Show icons for hard drives, servers, and removable media on the desktop
     ShowExternalHardDrivesOnDesktop: yes
     ShowHardDrivesOnDesktop: yes
     ShowRemovableMediaOnDesktop: yes
     ShowMountedServersOnDesktop: yes
 
+    # Finder: show hidden files by default
     AppleShowAllFiles: yes
 
+    # New window points to home
     NewWindowTarget: PfHm
     NewWindowTargetPath: file:///Users/{{ ansible_ssh_user }}/
 
     NSNavBrowserPreferedColumnContentWidth: 186
 
     FK_SidebarWidth: 192
+
+    # Expand the following File Info panes:
+    # “General”, “Open with”, and “Sharing & Permissions”
+    FXInfoPanesExpanded:
+      General: yes
+      OpenWith: yes
+      Privileges: yes
+
+    # Settings for each view style
+    FK_StandardViewSettings:
+      SettingsType: FK_StandardViewSettings
+
+      # Settings for Extended List View
+      ExtendedListViewSettings:
+        calculateAllSizes: no
+
+        # Icon size
+        iconSize: 16
+
+        # Text font size
+        textSize: 12
+
+        # Display a preview
+        showIconPreview: yes
+
+        # Column to sort after
+        sortColumn: name
+
+        # Display dates in relative format
+        useRelativeDates: yes
+
+      # Settings for Icon View
+      IconViewSettings:
+        # Group files together by
+        arrangeBy: none
+
+        # Background
+        backgroundType: 0
+        backgroundColorRed: 1.0
+        backgroundColorGreen: 1.0
+        backgroundColorBlue: 1.0
+
+        # Grid options
+        gridOffsetX: 0.0
+        gridOffsetY: 0.0
+        gridSpacing: 54.0
+
+        # Icon size
+        iconSize: 64.0
+
+        # Text font size
+        textSize: 12.0
+
+        # Display label on the bottom of the file instead of to the right
+        labelOnBottom: yes
+
+        # Display a preview
+        showIconPreview: yes
+
+        #
+        showItemInfo: no
+
+      # Settings for List View
+      ListViewSettings:
+        calculateAllSizes: no
+
+        # Icon size
+        iconSize: 16
+
+        # Text font size
+        textSize: 12
+
+        # Display a preview
+        showIconPreview: yes
+
+        # Column to sort after
+        sortColumn: name
+
+        # Display dates in relative format
+        useRelativeDates: yes
 
     # Settings for each view style
     StandardViewSettings:
