@@ -1,0 +1,20 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: Install Java
+      homebrew_cask: name={{item}}
+      sudo: true
+      environment:
+        HOMEBREW_CASK_OPTS: "--appdir=/Applications"
+      with_items:
+        - java6
+        - java7
+        - java
+
+    - name: Install Java build tools
+      homebrew: name={{item}}
+      with_items:
+        - gradle
+        - maven
+        - ant

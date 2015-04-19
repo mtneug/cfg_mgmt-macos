@@ -1,0 +1,18 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: Install video CLI tools
+      homebrew: name={{item.name}} install_options={{item.install_options}}
+      with_items:
+        - name: mediainfo
+          install_options:
+
+        - name: rtmpdump
+          install_options:
+
+        - name: youtube-dl
+          install_options: with-rtmpdump
+
+        - name: ffmpeg
+          install_options: with-faac,with-fdk-aac,with-ffplay,with-fontconfig,with-freetype,with-frei0r,with-libass,with-libbluray,with-libcaca,with-libquvi,with-libsoxr,with-libssh,with-libvidstab,with-libvorbis,with-libvpx,with-opencore-amr,with-openjpeg,with-openssl,with-opus,with-rtmpdump,with-schroedinger,with-speex,with-theora,with-tools,with-webp,with-x265

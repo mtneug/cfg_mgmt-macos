@@ -1,0 +1,92 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: Install utility CLI tools
+      homebrew: name={{item.name}} install_options={{item.install_options}}
+      with_items:
+        # System tools
+        - name: coreutils
+          install_options:
+
+        - name: findutils
+          install_options:
+
+        - name: diffutils
+          install_options:
+
+        - name: ack
+          install_options:
+
+        - name: gnu-sed
+          install_options: with-default-names
+
+        - name: gnu-tar
+          install_options: with-default-names
+
+        - name: gnu-time
+          install_options: with-default-names
+
+        - name: gnu-which
+          install_options: with-default-names
+
+        - name: aspell
+          install_options: with-lang-de,with-lang-en
+
+        - name: ssh-copy-id
+          install_options:
+
+        - name: tree
+          install_options:
+
+        - name: watch
+          install_options:
+
+        - name: grep
+          install_options: with-default-names
+
+        - name: less
+          install_options:
+
+        - name: lsof
+          install_options:
+
+        - name: rsync
+          install_options:
+
+        - name: rename
+          install_options:
+
+        - name: pv
+          install_options:
+
+        - name: vim
+          install_options: override-system-vi
+
+        # Un/Archiver
+        - name: p7zip
+          install_options:
+
+        - name: pigz
+          install_options:
+
+        - name: zopfli
+          install_options:
+
+        # Nice tools
+        - name: the_silver_searcher
+          install_options:
+
+        - name: fasd
+          install_options:
+
+    - name: Install utility CLI tools (pip)
+      pip: name={{item}} state=latest
+      with_items:
+        - pygments
+
+    - name: Install Asepsis
+      homebrew_cask: name=asepsis
+      sudo: true
+      environment:
+        HOMEBREW_CASK_OPTS: "--appdir=/Applications"

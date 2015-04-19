@@ -1,0 +1,6 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: Install Python
+      homebrew: name=python install_options=universal

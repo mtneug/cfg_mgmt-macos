@@ -1,0 +1,9 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: Install data CLI tools
+      homebrew: name={{item.name}} install_options={{item.install_options}}
+      with_items:
+        - name: base64
+          install_options:

@@ -1,0 +1,31 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: Add sources to Homebrew
+      homebrew_tap: tap={{item}}
+      with_items:
+        - homebrew/binary
+        - homebrew/dupes
+        - homebrew/science
+        - homebrew/devel-only
+        - caskroom/cask
+        - caskroom/versions
+        - caskroom/fonts
+
+    - name: Update Homebrew
+      homebrew: update_homebrew=yes upgrade_all=yes
+
+    - name: Install Homebrew-Cask
+      homebrew: name=brew-cask
+
+    - name: Create folder for Homebrew-Cask
+      file:
+        path: "{{item}}"
+        state: directory
+        owner: "{{ansible_ssh_user}}"
+        group: admin
+        mode: 0755
+      with_items:
+        - /opt/homebrew-cask
+        - /opt/homebrew-cask/Caskroom

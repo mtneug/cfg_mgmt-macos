@@ -1,0 +1,20 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: Add iPhone Simulator to Application folder
+      file:
+        src: /Applications/Xcode.app/Contents/Applications/iOS Simulator.app
+        dest: /Applications/iOS Simulator.app
+        state: link
+
+    - name: Install iOS CLI tools (npm)
+      npm: name={{item}} state=latest production=yes global=yes
+      with_items:
+        - ios-deploy
+        - ios-sim
+
+    - name: Install iOS CLI tools (gem)
+      gem: name={{item}} state=latest user_install=no
+      with_items:
+        - cocoapods

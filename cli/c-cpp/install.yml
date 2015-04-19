@@ -1,0 +1,15 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: Install C/C++ development CLI tools
+      homebrew: name={{item.name}} install_options={{item.install_options}}
+      with_items:
+        - name: gcc
+          install_options:
+
+        - name: binutils
+          install_options:
+
+        - name: cmake
+          install_options:

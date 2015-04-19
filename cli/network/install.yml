@@ -1,0 +1,26 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: Install CLI tools used in LANs
+      homebrew: name={{item}}
+      with_items:
+        - wakeonlan
+
+    - name: Install internet CLI tools
+      homebrew: name={{item.name}} install_options={{item.install_options}}
+      with_items:
+        - name: aria2
+          install_options:
+
+        - name: lftp
+          install_options:
+
+        - name: wget
+          install_options: enable-iri
+
+    - name: Install network debugging CLI tools
+      homebrew: name={{item.name}} install_options={{item.install_options}}
+      with_items:
+        - name: tcpdump
+          install_options:

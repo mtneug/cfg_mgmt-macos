@@ -1,0 +1,34 @@
+---
+
+- include: homebrew/install.yml
+- include: libraries/install.yml
+
+- include: version-controll/install.yml
+
+- include: python/install.yml
+- include: ruby/install.yml
+- include: node/install.yml
+- include: go/install.yml
+- include: haskell/install.yml
+- include: java/install.yml
+- include: c-cpp/install.yml
+
+- include: android/install.yml
+- include: ios/install.yml
+
+- include: browser/install.yml
+- include: css/install.yml
+
+- include: shells/install.yml
+- include: utilities/install.yml
+
+- include: image/install.yml
+- include: audio/install.yml
+- include: video/install.yml
+- include: documents/install.yml
+- include: data/install.yml
+
+- include: network/install.yml
+- include: database/install.yml
+- include: docker/install.yml
+- include: security/install.yml

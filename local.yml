@@ -2,5 +2,5 @@
 
 - include: pre.yml
 - include: osx/all.yml
-#- include: cli/all.yml
+- include: cli/all.yml
 #- include: apps/all.yml

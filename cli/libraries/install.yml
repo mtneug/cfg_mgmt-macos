@@ -1,0 +1,42 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: Install CLI libraries and dependencies
+      homebrew: name={{item.name}} install_options={{item.install_options}}
+      with_items:
+        - name: jpeg
+          install_options: universal
+
+        - name: xz
+          install_options: universal
+
+        - name: libpng
+          install_options: universal
+
+        - name: freetype
+          install_options: universal
+
+        - name: libtiff
+          install_options: universal
+
+        - name: libtool
+          install_options: universal
+
+        - name: little-cms2
+          install_options: universal
+
+        - name: gd
+          install_options: universal,with-freetype
+
+        - name: gdbm
+          install_options: universal
+
+        - name: openssl
+          install_options: universal
+
+    - name: Install XQuartz
+      homebrew_cask: name=xquartz
+      sudo: true
+      environment:
+        HOMEBREW_CASK_OPTS: "--appdir=/Applications"

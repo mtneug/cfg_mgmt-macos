@@ -1,0 +1,9 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: Install CLI browser
+      homebrew: name={{item.name}} install_options={{item.install_options}}
+      with_items:
+        - name: phantomjs
+          install_options:

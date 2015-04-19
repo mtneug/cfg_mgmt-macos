@@ -1,0 +1,25 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: Install Ruby
+      homebrew: name=ruby
+
+    - name: Install Ruby build tools
+      gem: name={{item}} state=latest user_install=no
+      with_items:
+        - rake
+        - guard
+        - guard-shell
+
+    - name: Install Ruby test tools
+      gem: name={{item}} state=latest user_install=no
+      with_items:
+        - rubocop
+
+    - name: Install other Ruby tools
+      gem: name={{item}} state=latest user_install=no
+      with_items:
+        - bundler
+        - pry
+        - rsense

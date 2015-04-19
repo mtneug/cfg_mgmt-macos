@@ -1,0 +1,21 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: Install image CLI tools
+      homebrew: name={{item.name}} install_options={{item.install_options}}
+      with_items:
+        - name: librsvg
+          install_options: with-libgsf
+
+        - name: giflib
+          install_options: universal
+
+        - name: webp
+          install_options: universal,with-giflib,with-libtiff
+
+        - name: imagemagick
+          install_options: with-fontconfig,with-hdri,with-jp2,with-liblqr,with-librsvg,with-libtiff,with-libwmf,with-little-cms,with-little-cms2,with-openexr,with-pango,with-perl,with-quantum-depth-8,with-quantum-depth-16,with-quantum-depth-32,with-webp,with-x11
+
+        - name: webkit2png
+          install_options:

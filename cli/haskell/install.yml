@@ -1,0 +1,12 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: Install haskell development CLI tools
+      homebrew: name={{item.name}} install_options={{item.install_options}}
+      with_items:
+        - name: ghc
+          install_options:
+
+        - name: cabal-install
+          install_options:

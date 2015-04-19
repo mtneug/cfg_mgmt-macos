@@ -1,0 +1,57 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: Install Bash
+      homebrew: name={{item}}
+      with_items:
+        - bash
+        - bash-completion
+
+    - name: Install Zsh
+      homebrew: name={{item.name}} install_options={{item.install_options}}
+      with_items:
+        - name: zsh
+          install_options: disable-etcdir
+
+        - name: zsh-syntax-highlighting
+          install_options:
+
+        - name: zsh-completions
+          install_options:
+
+        - name: zsh
+          install_options:
+
+    - name: Install fish
+      homebrew: name=fish state=head
+
+    - name: Set fish as login shell in Directory
+      shell: dscl . -change /Users/{{ansible_ssh_user}} UserShell /bin/bash /usr/local/bin/fish
+      sudo: true
+      ignore_errors: True
+    - name: Set fish as login shell in UNIX
+      shell: chsh -s /usr/local/bin/fish {{ansible_ssh_user}}
+      sudo: true
+
+    - name: Install other shell CLI tools
+      homebrew: name={{item.name}} install_options={{item.install_options}}
+      with_items:
+        - name: shellcheck
+          install_options:
+
+        - name: tmux
+          install_options:
+
+        - name: reattach-to-user-namespace
+          install_options:
+
+    - name: Install other shell CLI tools (pip)
+      pip: name={{item}} state=latest
+      with_items:
+        - powerline-status
+
+    - name:  Install other shell CLI tools (gem)
+      gem: name={{item}} state=latest user_install=no
+      with_items:
+        - tmuxinator
