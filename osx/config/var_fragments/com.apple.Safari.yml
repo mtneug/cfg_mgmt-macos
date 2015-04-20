@@ -8,7 +8,7 @@
     # Don't remember passwords
     AutoFillPasswords: no
     # Safari opens with: A new window
-    AlwaysRestoreSessionAtLaunch: no
+    AlwaysRestoreSessionAtLaunch: yes
     # New windows open with: Empty Page
     NewWindowBehavior: 1
     # New tabs open with: Empty Page

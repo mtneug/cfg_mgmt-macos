@@ -41,7 +41,7 @@
     # Set keyboard repeat rate
     KeyRepeat: 1
     # Set a shorter Delay until key repeat
-    InitialKeyRepeat: 10
+    InitialKeyRepeat: 40
 
     NSNavPanelFileLastListModeForOpenModeKey: 1
     NSNavPanelFileLastListModeForSaveModeKey: 1

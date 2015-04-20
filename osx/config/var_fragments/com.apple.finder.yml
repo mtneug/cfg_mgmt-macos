@@ -29,7 +29,7 @@
     # Enable the warning before emptying the Trash
     WarnOnEmptyTrash: yes
     # Empty Trash securely by default
-    EmptyTrashSecurely: yes
+    EmptyTrashSecurely: no
 
     # Show icons for hard drives, servers, and removable media on the desktop
     ShowExternalHardDrivesOnDesktop: yes
