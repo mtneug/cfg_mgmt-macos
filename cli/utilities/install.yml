@@ -87,6 +87,6 @@
 
     - name: Install Asepsis
       homebrew_cask: name=asepsis
-      sudo: true
+      sudo: yes
       environment:
         HOMEBREW_CASK_OPTS: "--appdir=/Applications"

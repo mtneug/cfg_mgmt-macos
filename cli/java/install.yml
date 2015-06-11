@@ -4,7 +4,7 @@
   tasks:
     - name: Install Java
       homebrew_cask: name={{item}}
-      sudo: true
+      sudo: yes
       environment:
         HOMEBREW_CASK_OPTS: "--appdir=/Applications"
       with_items:

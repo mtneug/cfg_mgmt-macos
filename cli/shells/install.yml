@@ -28,11 +28,11 @@
 
     - name: Set fish as login shell in Directory
       shell: dscl . -change /Users/{{ansible_ssh_user}} UserShell /bin/bash /usr/local/bin/fish
-      sudo: true
-      ignore_errors: True
+      sudo: yes
+      ignore_errors: yes
     - name: Set fish as login shell in UNIX
       shell: chsh -s /usr/local/bin/fish {{ansible_ssh_user}}
-      sudo: true
+      sudo: yes
 
     - name: Install other shell CLI tools
       homebrew: name={{item.name}} install_options={{item.install_options}}

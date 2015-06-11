@@ -37,6 +37,6 @@
 
     - name: Install XQuartz
       homebrew_cask: name=xquartz
-      sudo: true
+      sudo: yes
       environment:
         HOMEBREW_CASK_OPTS: "--appdir=/Applications"
