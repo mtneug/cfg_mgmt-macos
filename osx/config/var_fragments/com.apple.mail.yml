@@ -1,4 +1,5 @@
   com.apple.mail:
+    # TODO: update
     # Enable send and reply animations in Mail.app
     DisableReplyAnimations: no
     DisableSendAnimations: no

@@ -1,6 +1,21 @@
   com.apple.archiveutility:
-    # Move archives to trash after extraction
-    dearchive-move-after: "~/.Trash"
+    # archive format
+    #     - cpgz
+    #     - cpio
+    #     - zip
+    archive-format: cpgz
+
+    # Don't move files to trash after archiving
+    archive-move-after: .
+
+    # Don't reveal archive
+    archive-reveal-after: no
+
+    # Don't move archives to trash after extraction
+    dearchive-move-after: .
 
     # Don't reveal extracted items
     dearchive-reveal-after: no
+
+    # Extract recursively
+    dearchive-recursively: yes

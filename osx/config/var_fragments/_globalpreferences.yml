@@ -90,3 +90,6 @@
 
     # Disable volume change feedback
     com.apple.sound.beep.feedback: 0
+
+    # Enable clicking
+    com.apple.mouse.tapBehavior: 1

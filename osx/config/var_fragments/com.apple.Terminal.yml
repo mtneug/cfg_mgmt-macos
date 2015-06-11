@@ -8,7 +8,7 @@
     # i.e. hover over a window and start typing in it without clicking first
     FocusFollowsMouse: no
     # Only use UTF-8 in Terminal.app
-    StringEncodings:     
+    StringEncodings:
       - 4
     Window Settings:
       # TODO: basic
@@ -23,7 +23,7 @@
         ShowWindowSettingsNameInTitle: no
 
         columnCount: 120
-        rowCount: 70
+        rowCount: 30
 
         BackgroundBlur: no
         #BackgroundColor: <62706c69 73743030 d4010203 04050615 16582476 65727369 6f6e5824 6f626a65 63747359 24617263 68697665 72542474 6f701200 0186a0a3 07080f55 246e756c 6cd3090a 0b0c0d0e 574e5357 68697465 5c4e5343 6f6c6f72 53706163 65562463 6c617373 4d302030 2e383530 30303030 32001003 8002d210 1112135a 24636c61 73736e61 6d655824 636c6173 73657357 4e53436f 6c6f72a2 1214584e 534f626a 6563745f 100f4e53 4b657965 64417263 68697665 72d11718 54726f6f 74800108 111a232d 32373b41 48505d64 7274767b 868f979a a3b5b8bd 00000000 00000101 00000000 00000019 00000000 00000000 00000000 000000bf>
