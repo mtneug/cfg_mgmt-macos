@@ -18,7 +18,12 @@
         - generator-angular
         - generator-karma
 
-    - name: Install JavaScript test tools
+    - name: Install JavaScript test tools (brew)
+      homebrew: name={{item}}
+      with_items:
+        - flow
+
+    - name: Install JavaScript test tools (npm)
       npm: name={{item}} state=latest production=yes global=yes
       with_items:
         - karma

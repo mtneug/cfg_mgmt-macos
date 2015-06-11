@@ -7,7 +7,7 @@
 
 - include: python/install.yml
 - include: ruby/install.yml
-- include: node/install.yml
+- include: javascript/install.yml
 - include: go/install.yml
 - include: haskell/install.yml
 - include: java/install.yml
