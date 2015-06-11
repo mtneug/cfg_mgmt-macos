@@ -3,3 +3,6 @@
 # Editors / IDEs
 - include: atom/install.yml
 - include: intellij/install.yml
+
+# Security
+- include: 1password/install.yml
