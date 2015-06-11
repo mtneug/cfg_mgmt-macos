@@ -6,3 +6,7 @@
 
 # Security
 - include: 1password/install.yml
+
+# Browser
+- include: google-chrome/install.yml
+- include: firefox/install.yml

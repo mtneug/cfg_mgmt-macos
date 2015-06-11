@@ -1,0 +1,8 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: Install Google Chrome
+      homebrew_cask: name=google-chrome
+      environment:
+        HOMEBREW_CASK_OPTS: "--appdir=/Applications"
