@@ -6,5 +6,5 @@ To run this playbooks, you can use a [OS X Ansible bootstrap script](https://git
 $ ruby -e "$(curl -fsSL https://git.io/osx-ansible-bootstrap)"
 ==> What Git repository should be pulled?
 Ansible Playbook Git repository: https://github.com/mtneug/custom-ansible-osx.git
-Ansible Playbook to run (local.yml): 
+Ansible Playbook to run (local.yml):
 ```
