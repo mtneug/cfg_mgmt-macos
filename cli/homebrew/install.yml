@@ -26,6 +26,7 @@
         owner: "{{ansible_ssh_user}}"
         group: admin
         mode: 0755
+      sudo: yes
       with_items:
         - /opt/homebrew-cask
         - /opt/homebrew-cask/Caskroom
