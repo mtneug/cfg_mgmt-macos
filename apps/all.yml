@@ -2,3 +2,4 @@
 
 # Editors / IDEs
 - include: atom/install.yml
+- include: intellij/install.yml
