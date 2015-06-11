@@ -5,7 +5,7 @@
     - name: Delete local.retry
       sudo: yes
       file:
-        path: ~/local.retry
+        path: /Users/{{ansible_ssh_user}}/local.retry
         state: absent
 
     - name: Delete Homebrew cache
