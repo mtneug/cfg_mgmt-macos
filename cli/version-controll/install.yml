@@ -20,6 +20,11 @@
         - name: vcsh
           install_options:
 
+    - name: Install git dotfiles
+      vcsh:
+        name: git
+        remote: git@github.com:mtneug/dotfiles-git.git
+
     - name: Install mercurial tools
       homebrew: name={{item.name}} install_options={{item.install_options}}
       with_items:
