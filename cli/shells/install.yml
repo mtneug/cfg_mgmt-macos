@@ -51,7 +51,17 @@
       with_items:
         - powerline-status
 
+    - name: Install powerline dotfiles
+      vcsh:
+        name: powerline
+        remote: git@github.com:mtneug/dotfiles-powerline.git
+
     - name:  Install other shell CLI tools (gem)
       gem: name={{item}} state=latest user_install=no
       with_items:
         - tmuxinator
+
+    - name: Install tmux dotfiles
+      vcsh:
+        name: tmux
+        remote: git@github.com:mtneug/dotfiles-tmux.git

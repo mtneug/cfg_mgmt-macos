@@ -35,3 +35,8 @@
       with_items:
         - bower
         - node-inspector
+
+    - name: Install javascript dotfiles
+      vcsh:
+        name: javascript
+        remote: git@github.com:mtneug/dotfiles-javascript.git
