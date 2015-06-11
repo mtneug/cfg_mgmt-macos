@@ -23,3 +23,8 @@
         - bundler
         - pry
         - rsense
+
+    - name: Install ruby dotfiles
+      vcsh:
+        name: ruby
+        remote: git@github.com:mtneug/dotfiles-ruby.git
