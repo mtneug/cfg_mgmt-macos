@@ -1,0 +1,34 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: Install TeamViewer
+      homebrew_cask: name=teamviewer
+      environment:
+        HOMEBREW_CASK_OPTS: "--appdir=/Applications"
+
+    - name: Set TeamViewer settings
+      notify: restart TeamViewer
+      plist_file:
+        dest: com.teamviewer.TeamViewer
+        value:
+          SUAutomaticallyUpdate: yes
+          SUEnableAutomaticChecks: yes
+          SUSendProfileInfo: no
+
+    - name: Set TeamViewer settings
+      notify: restart TeamViewer
+      plist_file:
+        dest: com.teamviewer.teamviewer10
+        value:
+          Is_Not_First_Run_Without_Connection: yes
+          Is_Not_Running_Test_Connection: yes
+          Meeting_UserName: Matthias Neugebauer
+          Remote_RemoteCursor: yes
+
+  handlers:
+    - name: restart TeamViewer
+      shell: killall {{item}}
+      ignore_errors: yes
+      with_items:
+        - TeamViewer

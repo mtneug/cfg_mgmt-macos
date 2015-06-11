@@ -13,3 +13,4 @@
 
 # Communication
 - include: skype/install.yml
+- include: teamviewer/install.yml
