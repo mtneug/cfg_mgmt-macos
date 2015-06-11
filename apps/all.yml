@@ -17,3 +17,6 @@
 
 # Security
 - include: gpgtools/install.yml
+
+# SaaS
+- include: google-drive/install.yml
