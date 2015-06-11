@@ -90,3 +90,11 @@
       sudo: yes
       environment:
         HOMEBREW_CASK_OPTS: "--appdir=/Applications"
+
+    - name: Install vim dotfiles
+      vcsh:
+        name: vim
+        remote: git@github.com:mtneug/dotfiles-vim.git
+
+    - name: Install vim plugins
+      shell: vim +PluginInstall +qall > /dev/null 2>&1
