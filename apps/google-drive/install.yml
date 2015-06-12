@@ -7,7 +7,7 @@
       environment:
         HOMEBREW_CASK_OPTS: "--appdir=/Applications"
 
-    - name: Set 1Password settings
+    - name: Set Google Drive settings
       notify: restart Google Drive
       plist_file:
         dest: com.google.GoogleDrive
