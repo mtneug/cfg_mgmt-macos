@@ -1,0 +1,29 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: Install Tomighty
+      homebrew_cask: name=tomighty
+      environment:
+        HOMEBREW_CASK_OPTS: "--appdir=/Applications"
+
+    - name: Set Tomighty settings
+      notify: restart Tomighty
+      plist_file:
+        dest: com.Gig.Tomighty
+        value:
+          sound_tictac_break: no
+          sound_tictac_pomodoro: no
+          sound_timer_start: yes
+
+    - name: Install tomighty dotfiles
+      vcsh:
+        name: tomighty
+        remote: git@github.com:mtneug/dotfiles-tomighty.git
+
+  handlers:
+    - name: restart Tomighty
+      shell: killall {{item}}
+      ignore_errors: yes
+      with_items:
+        - Tomighty

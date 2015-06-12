@@ -20,3 +20,6 @@
 
 # SaaS
 - include: google-drive/install.yml
+
+# Productivity
+- include: tomighty/install.yml
