@@ -4,8 +4,10 @@
       CustomListItems:
         - Name: "http://ipad-mt.intern"
           URL: "http://ipad-mt.intern"
-        - Name: "smb://homeserver.intern"
-          URL: "smb://homeserver.intern"
+        - Name: "afp://homeserver.intern"
+          URL: "afp://homeserver.intern"
+        - Name: "afp://homeserver.intern:549"
+          URL: "afp://homeserver.intern:549"
     networkbrowser:
       CustomListProperties:
         com.apple.NetworkBrowser.bonjourEnabled: yes

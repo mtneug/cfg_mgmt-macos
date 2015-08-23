@@ -1,6 +1,6 @@
   com.apple.dock:
     # left, bottom, right
-    orientation: left
+    orientation: bottom
 
     # enable guestures
     showMissionControlGestureEnabled: yes
@@ -78,3 +78,5 @@
 
     wvous-br-corner: 0
     wvous-br-modifier: 0
+
+    loc: de_DE

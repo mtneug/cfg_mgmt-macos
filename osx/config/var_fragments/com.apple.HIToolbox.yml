@@ -1,18 +1,18 @@
   com.apple.HIToolbox:
-    AppleCurrentKeyboardLayoutInputSourceID: "com.apple.keylayout.German"
+    AppleCurrentKeyboardLayoutInputSourceID: com.apple.keylayout.German
     AppleDictationAutoEnable: yes
 
-    AppleEnabledInputSources:     
+    AppleEnabledInputSources:
       - InputSourceKind: Keyboard Layout
         KeyboardLayout ID: 3
         KeyboardLayout Name: German
 
-    AppleSavedCurrentInputSource:     
+    AppleSavedCurrentInputSource:
       - InputSourceKind: Keyboard Layout
         KeyboardLayout ID: 3
         KeyboardLayout Name: German
 
-    AppleSelectedInputSources:     
+    AppleSelectedInputSources:
       - InputSourceKind: Keyboard Layout
         KeyboardLayout ID: 3
         KeyboardLayout Name: German

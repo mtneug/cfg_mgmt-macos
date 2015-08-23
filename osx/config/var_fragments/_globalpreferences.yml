@@ -1,4 +1,5 @@
   .GlobalPreferences:
+    AppleActionOnDoubleClick: Maximize
     AppleHighlightColor: "1.000000 0.937255 0.690196"
     AppleOtherHighlightColor: "1.000000 0.937255 0.690196"
     AppleAquaColorVariant: 6
@@ -8,6 +9,7 @@
     AppleFontSmoothing: 2
     AppleLanguages:
       - de
+      - en
     AppleLocale: "de_DE"
     AppleMeasurementUnits: Centimeters
     AppleMetricUnits: yes
@@ -41,7 +43,7 @@
     # Set keyboard repeat rate
     KeyRepeat: 1
     # Set a shorter Delay until key repeat
-    InitialKeyRepeat: 40
+    InitialKeyRepeat: 15
 
     NSNavPanelFileLastListModeForOpenModeKey: 1
     NSNavPanelFileLastListModeForSaveModeKey: 1
@@ -93,3 +95,57 @@
 
     # Enable clicking
     com.apple.mouse.tapBehavior: 1
+
+    AKDeviceUnlockState: no
+    NSPersonNameDefaultDisplayNameOrder: 2
+    NSPersonNameDefaultShortNameFormat: 0
+    NSPersonNameDefaultShouldPreferNicknamesPreference: 0
+    NSPreferredSpellServerLanguage: de
+    NSPreferredSpellServerVendors:
+      de: Apple
+    NSPreferredWebServices:
+      NSWebServicesProviderWebSearch:
+        NSDefaultDisplayName: Google
+        NSProviderIdentifier: "com.google.www"
+    NSSpellCheckerAutomaticallyIdentifiesLanguages: yes
+    _HIHideMenuBar: no
+    com.apple.DictionaryServices:
+      DCSActiveDictionaries:
+        - "/Library/Dictionaries/German - English.dictionary"
+        - "/Library/Dictionaries/Duden Dictionary Data Set I.dictionary"
+        - "/Library/Dictionaries/Apple Dictionary.dictionary"
+        - "/System/Library/Frameworks/CoreServices.framework/Frameworks/DictionaryServices.framework/Resources/Wikipedia.wikipediadictionary"
+        - "/Library/Dictionaries/Oxford Thesaurus of English.dictionary"
+        - "/Library/Dictionaries/Oxford Dictionary of English.dictionary"
+      DCSDictionaryPrefs:
+        com.apple.dictionary.Wikipedia:
+          language-ar: 0
+          language-ca: 0
+          language-cs: 0
+          language-da: 0
+          language-de: 1
+          language-el: 0
+          language-en: 1
+          language-es: 0
+          language-fi: 0
+          language-fr: 0
+          language-he: 0
+          language-hr: 0
+          language-hu: 0
+          language-it: 0
+          language-ja: 0
+          language-ko: 0
+          language-nl: 0
+          language-no: 0
+          language-pl: 0
+          language-pt: 0
+          language-ro: 0
+          language-ru: 0
+          language-sk: 0
+          language-sv: 0
+          language-th: 0
+          language-tr: 0
+          language-uk: 0
+          language-zh/cn/hans: 0
+          language-zh/tw/hant: 0
+    userMenuExtraStyle: 2

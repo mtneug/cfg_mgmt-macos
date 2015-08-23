@@ -46,7 +46,14 @@
 
     NSNavBrowserPreferedColumnContentWidth: 186
 
+    FK_SavedViewStyle: clmv
     FK_SidebarWidth: 192
+    FK_AppCentricShowSidebar: yes
+
+    ShowPreviewPane: yes
+    SidebarDevicesSectionDisclosedState: 1
+    SidebarPlacesSectionDisclosedState: 1
+    SidebarSharedSectionDisclosedState: 1
 
     # Expand the following File Info panes:
     # “General”, “Open with”, and “Sharing & Permissions”
@@ -275,3 +282,47 @@
         gridOffsetX: 0.0
         gridOffsetY: 0.0
         gridSpacing: 55.0
+
+    FK_StandardViewOptions:
+        ColumnViewOptions:
+          ArrangeBy: dnam
+          ColumnShowFolderArrow: yes
+          ColumnShowIcons: yes
+          ColumnWidth: 205
+          FontSize: 12
+          PreviewDisclosureState: yes
+          SharedArrangeBy: kipl
+          ShowIconThumbnails: yes
+          ShowPreview: yes
+
+    SearchViewSettings:
+      IconViewSettings:
+        arrangeBy: none
+        backgroundType: 0
+        backgroundColorRed: 1.0
+        backgroundColorGreen: 1.0
+        backgroundColorBlue: 1.0
+        gridOffsetX: 0.0
+        gridOffsetY: 0.0
+        gridSpacing: 54.0
+        iconSize: 64.0
+        textSize: 12.0
+        labelOnBottom: yes
+        showIconPreview: yes
+        showItemInfo: no
+
+      WindowState:
+        ContainerShowSidebar: yes
+        PreviewPaneVisibility: yes
+        ShowPathbar: yes
+        ShowSidebar: yes
+        ShowStatusBar: no
+        ShowTabView: no
+        ShowToolbar: yes
+        SidebarWidth: 158
+
+    NSToolbar Configuration Browser:
+        TB Display Mode: 2
+        TB Icon Size Mode: 1
+        TB Is Shown: yes
+        TB Size Mode: 1

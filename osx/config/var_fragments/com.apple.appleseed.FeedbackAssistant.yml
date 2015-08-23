@@ -1,4 +1,5 @@
   com.apple.appleseed.FeedbackAssistant:
-    Autolaunched: no
     WelcomeWindowShown: yes
+    Autolaunched: no
     autoDockAdded: no
+    FBASuppressPrivacyNotice: no

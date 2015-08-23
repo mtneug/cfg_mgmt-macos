@@ -2,7 +2,7 @@
     SelectedVoiceCreator: 1886745202
     SelectedVoiceID: 100827421
     SelectedVoiceName: Karen
-    VoiceRateDataArray:     
+    VoiceRateDataArray:
       # Creator
       # ID
       # Speaking rate
@@ -18,3 +18,7 @@
          - 1886745202
          - 100827421
          - 212
+      -
+         - 1886745202
+         - 100827411
+         - 237

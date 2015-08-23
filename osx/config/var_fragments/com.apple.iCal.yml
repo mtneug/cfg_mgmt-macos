@@ -2,7 +2,8 @@
     CalDefaultCalendar: UseLastSelectedAsDefaultCalendar
     CalDefaultCalendarSelectedByUser: no
     CalUICanvasOccurrenceFontSize: 12
-    CalendarListMiniMonthVisibleMonths: 1
+    CalendarListMiniMonthVisibleMonths: 2
+    CalendarSidebarShown: yes
     CalendarSidebarWidth: 168
 
     DisableEmphasizedViews: yes
@@ -11,7 +12,6 @@
     PersistentMenu-lastUsedTimeZones:
       - name: Europe/Berlin
 
-    CalendarSidebarShown: yes
     TimeZone support enabled: no
     # Show week numbers (10.8 only)
     Show Week Numbers: yes
@@ -22,8 +22,6 @@
 
     first day of week: 0
     first minute of day time range: 0
-    first shown minute of day": 624.6760563380282
+    first shown minute of day: 624.6760563380282
     last calendar view description: "7-day"
     last minute of day time range: 1440
-
-

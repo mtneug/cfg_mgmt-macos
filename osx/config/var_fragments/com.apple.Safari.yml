@@ -1,6 +1,6 @@
   com.apple.Safari:
     AlwaysShowFavoritesBarInFullScreen: no
-    AlwaysShowTabBar: yes
+    AlwaysShowTabBar: no
     AlwaysShowTabBarInFullScreen: no
     AutoFillCreditCardData: no
     AutoFillFromAddressBook: no
@@ -26,7 +26,7 @@
     ClearBrowsingDataLastIntervalUsed: "all history"
     # disable Safari’s thumbnail cache for history and top sites
     DebugSnapshotsUpdatePolicy: 2
-    DefaultBrowserPromptingState: 2
+    DefaultBrowserPromptingState: 4
     DefaultBrowserDateOfLastPrompt: '2050-01-01T00:00:00Z'
     # don't ask to setup account in OS X during login in the browser
     DomainsToNeverSetUp:
