@@ -26,10 +26,13 @@
     - name: Install fish
       homebrew: name=fish state=head
 
-    - name: Set fish as login shell in Directory
-      shell: dscl . -change /Users/{{ansible_ssh_user}} UserShell /bin/bash /usr/local/bin/fish
+    - name: Find out current shell in Directory
+      shell: dscl . -read /Users/mtneug UserShell | awk '{print $2}'
       sudo: yes
-      ignore_errors: yes
+      register: dscl_user_shell
+    - name: Set fish as login shell in Directory
+      shell: dscl . -change /Users/{{ansible_ssh_user}} UserShell {{ dscl_user_shell.stdout }} /usr/local/bin/fish
+      sudo: yes
     - name: Set fish as login shell in UNIX
       shell: chsh -s /usr/local/bin/fish {{ansible_ssh_user}}
       sudo: yes
@@ -56,7 +59,7 @@
         name: powerline
         remote: git@github.com:mtneug/dotfiles-powerline.git
 
-    - name:  Install other shell CLI tools (gem)
+    - name: Install other shell CLI tools (gem)
       gem: name={{item}} state=latest user_install=no
       with_items:
         - tmuxinator
