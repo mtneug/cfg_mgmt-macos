@@ -1,0 +1,242 @@
+---
+
+osx_config_restart:
+  .GlobalPreferences:
+    restart: no
+
+  com.apple.ActivityMonitor:
+    restart: yes
+    restart_apps:
+      - "'Activity Monitor'"
+
+  com.apple.addressbook:
+    restart: no
+
+  com.apple.AppleMultitouchTrackpad:
+    restart: no
+
+  com.apple.appleseed.FeedbackAssistant:
+    restart: no
+
+  com.apple.appstore:
+    restart: yes
+    restart_apps:
+      - "'App Store'"
+
+  com.apple.archiveutility:
+    restart: no
+
+  com.apple.assistant.support:
+    restart: no
+
+  com.apple.assistant:
+    restart: no
+
+  com.apple.BezelServices:
+    restart: no
+
+  com.apple.BluetoothAudioAgent:
+    restart: no
+
+  com.apple.Console:
+    restart: yes
+    restart_apps:
+      - Console
+
+  com.apple.CoreGraphics:
+    restart: no
+
+  com.apple.CrashReporter:
+    restart: no
+
+  com.apple.dashboard:
+    restart: yes
+    restart_apps:
+      - Dashboard
+
+  com.apple.desktopservices:
+    restart: no
+
+  com.apple.digihub:
+    restart: no
+
+  com.apple.DiskUtility:
+    restart: yes
+    restart_apps:
+      - "'Disk Utility'"
+
+  com.apple.dock:
+    restart: yes
+    restart_apps:
+      - Dock
+
+  com.apple.driver.AppleBluetoothMultitouch.mouse:
+    restart: no
+
+  com.apple.driver.AppleBluetoothMultitouch.trackpad:
+    restart: no
+
+  com.apple.driver.AppleHIDMouse:
+    restart: no
+
+  com.apple.dt.Xcode:
+    restart: yes
+    restart_apps:
+      - Xcode
+
+  com.apple.finder:
+    restart: yes
+    restart_apps:
+      - Finder
+
+  com.apple.frameworks.diskimages:
+    restart: no
+
+  com.apple.helpviewer:
+    restart: no
+
+  com.apple.HIToolbox:
+    restart: no
+
+  com.apple.iApps:
+    restart: no
+
+  com.apple.ibtool:
+    restart: no
+
+  com.apple.iCal:
+    restart: no
+
+  com.apple.icbaccountsd:
+    restart: no
+
+  com.apple.icloud.fmfd:
+    restart: no
+
+  com.apple.identityservicesd:
+    restart: no
+
+  com.apple.LaunchServices:
+    restart: no
+
+  com.apple.loginitems:
+    restart: no
+
+  com.apple.loginwindow:
+    restart: no
+
+  com.apple.mail:
+    restart: no
+
+  com.apple.menuextra.battery:
+    restart: no
+
+  com.apple.menuextra.clock:
+    restart: no
+
+  com.apple.messageshelper.MessageController:
+    restart: no
+
+  com.apple.NetworkBrowser:
+    restart: no
+
+  com.apple.print.PrintingPrefs:
+    restart: no
+
+  com.apple.ProblemReporter:
+    restart: no
+
+  com.apple.quicklook.satellite:
+    restart: no
+
+  com.apple.quicklookconfig:
+    restart: no
+
+  com.apple.Safari:
+    restart: yes
+    restart_apps:
+      - Safari
+
+  com.apple.screencapture:
+    restart: no
+
+  com.apple.screensaver:
+    restart: no
+
+  com.apple.security.cloudkeychainproxy3.keysToRegister:
+    restart: no
+
+  com.apple.SetupAssistant:
+    restart: no
+
+  com.apple.sharingd:
+    restart: no
+
+  com.apple.sidebarlists:
+    restart: no
+
+  com.apple.SoftwareUpdate:
+    restart: no
+
+  com.apple.spaces:
+    restart: no
+
+  com.apple.speech.recognition.AppleSpeechRecognition.prefs:
+    restart: no
+
+  com.apple.speech.synthesis.general.prefs:
+    restart: no
+
+  com.apple.speech.voice.prefs:
+    restart: no
+
+  com.apple.Spotlight:
+    restart: yes
+    restart_apps:
+      - Spotlight
+
+  com.apple.symbolichotkeys:
+    restart: no
+
+  com.apple.syncserver:
+    restart: no
+
+  com.apple.systempreferences:
+    restart: no
+
+  com.apple.systemsound:
+    restart: no
+
+  com.apple.systemuiserver:
+    restart: no
+
+  com.apple.TelephonyUtilities:
+    restart: no
+
+  com.apple.Terminal:
+    # Can't restart Terminal when we run ansible in it :)
+    restart: no
+    restart_apps:
+      - Terminal
+
+  com.apple.TextEdit:
+    restart: yes
+    restart_apps:
+      - TextEdit
+
+  com.apple.TimeMachine:
+    restart: yes
+    restart_apps:
+      - "'Time Machine'"
+
+  com.apple.universalaccess:
+    restart: no
+
+  com.apple.universalaccessAuthWarning:
+    restart: no
+
+  com.apple.UserAccountUpdater:
+    restart: no
+
+  org.x.X11:
+    restart: no
