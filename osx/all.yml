@@ -1,3 +1,4 @@
 ---
 
 - include: config/install.yml
+- include: directories/install.yml

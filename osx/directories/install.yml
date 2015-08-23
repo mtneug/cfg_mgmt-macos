@@ -1,0 +1,17 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: Create additional folders in the home directory
+      file:
+        path: "{{ item }}"
+        state: directory
+        owner: "{{ ansible_ssh_user }}"
+        group: staff
+        mode: 0755
+      with_items:
+        - /Users/{{ ansible_ssh_user }}/projects
+        - /Users/{{ ansible_ssh_user }}/tmp
+        - /Users/{{ ansible_ssh_user }}/bin
+        - /Users/{{ ansible_ssh_user }}/Desktop/todo
+        # images
