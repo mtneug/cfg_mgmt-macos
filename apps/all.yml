@@ -25,3 +25,6 @@
 
 # Documents
 - include: xmind/install.yml
+
+# Media
+- include: adobe-creative-cloud/install.yml
