@@ -2,7 +2,7 @@
 
 # Editors / IDEs
 - include: atom/install.yml
-- include: intellij/install.yml
+- include: intellij-idea/install.yml
 
 # Security
 - include: 1password/install.yml
@@ -22,4 +22,3 @@
 - include: google-drive/install.yml
 
 # Productivity
-- include: tomighty/install.yml
