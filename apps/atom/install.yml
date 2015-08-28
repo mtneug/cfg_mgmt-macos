@@ -10,7 +10,13 @@
     - name: Install Atom packages
       apm: name={{item}}
       with_items:
+        - atom-material-ui
+
+        - base16-syntax
+        - atom-material-syntax
         - pen-paper-coffee-syntax
+        - filter-syntax
+
 
         - api-blueprint-preview
         - atom-alignment
@@ -62,6 +68,8 @@
         - skim-displayline
         - sourcegraph-atom
         - stacktrace
+        - tabulation-control
+        - temporary-root
         - term2
         - tidy-markdown
         - todo-show
@@ -82,6 +90,7 @@
         - language-api-blueprint
         - language-asciidoc
         - language-d
+        - language-danger
         - language-dart
         - language-docker
         - language-diff
