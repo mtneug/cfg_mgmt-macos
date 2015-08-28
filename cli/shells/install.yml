@@ -53,6 +53,7 @@
       pip: name={{item}} state=latest
       with_items:
         - powerline-status
+        - psutil
 
     - name: Install powerline dotfiles
       vcsh:
