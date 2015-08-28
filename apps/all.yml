@@ -22,3 +22,6 @@
 - include: google-drive/install.yml
 
 # Productivity
+
+# Documents
+- include: xmind/install.yml
