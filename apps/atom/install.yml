@@ -91,7 +91,6 @@
         - language-asciidoc
         - language-d
         - language-danger
-        - language-dart
         - language-docker
         - language-diff
         - language-generic-config
