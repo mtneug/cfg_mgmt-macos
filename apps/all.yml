@@ -31,3 +31,4 @@
 
 # Virtual Machines
 - include: virtualbox/install.yml
+- include: vagrant/install.yml
