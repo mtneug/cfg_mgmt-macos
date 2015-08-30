@@ -34,3 +34,6 @@
 # Virtual Machines
 - include: virtualbox/install.yml
 - include: vagrant/install.yml
+
+# Utilities
+- include: android-file-transfer/install.yml
