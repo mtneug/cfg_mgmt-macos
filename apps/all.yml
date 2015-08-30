@@ -28,3 +28,6 @@
 
 # Media
 - include: adobe-creative-cloud/install.yml
+
+# Virtual Machines
+- include: virtualbox/install.yml

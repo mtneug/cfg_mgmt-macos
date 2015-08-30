@@ -1,0 +1,10 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: Install VirtualBox
+      homebrew_cask: name=virtualbox
+      environment:
+        HOMEBREW_CASK_OPTS: "--appdir=/Applications"
+
+    # TODO: preferences
