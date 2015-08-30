@@ -29,6 +29,7 @@
 # Media
 - include: adobe-creative-cloud/install.yml
 - include: spotify/install.yml
+- include: spotifree/install.yml
 
 # Virtual Machines
 - include: virtualbox/install.yml

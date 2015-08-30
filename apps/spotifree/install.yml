@@ -1,0 +1,10 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: Install Spotifree
+      homebrew_cask: name=spotifree
+      environment:
+        HOMEBREW_CASK_OPTS: "--appdir=/Applications"
+
+    # TODO: Preferences and autostart
