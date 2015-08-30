@@ -28,6 +28,7 @@
 
 # Media
 - include: adobe-creative-cloud/install.yml
+- include: colorpicker-skalacolor/install.yml
 - include: spotify/install.yml
 - include: spotifree/install.yml
 

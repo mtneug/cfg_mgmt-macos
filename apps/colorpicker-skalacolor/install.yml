@@ -1,0 +1,8 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: Install Skala Color
+      homebrew_cask: name=colorpicker-skalacolor
+      environment:
+        HOMEBREW_CASK_OPTS: "--appdir=/Applications"
