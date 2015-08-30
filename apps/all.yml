@@ -9,6 +9,7 @@
 
 # Browser
 - include: google-chrome/install.yml
+- include: google-chrome-canary/install.yml
 - include: firefox/install.yml
 
 # Communication
