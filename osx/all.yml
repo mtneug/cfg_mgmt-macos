@@ -1,4 +1,5 @@
 ---
 
 - include: config/install.yml
+- include: fonts/install.yml
 - include: directories/install.yml
