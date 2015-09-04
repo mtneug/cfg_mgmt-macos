@@ -1,0 +1,35 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: Install Espionage
+      homebrew_cask: name=espionage
+      environment:
+        HOMEBREW_CASK_OPTS: "--appdir=/Applications"
+
+    - name: Set Espionage settings
+      notify: restart Espionage
+      plist_file:
+        dest: com.kiwifruitware.Espionage
+        value:
+          SUEnableAutomaticChecks: yes
+          QuincyActivated: yes
+          QuincyAutomaticallySendCrashReports: no
+          TEFolderAutolockTimeMins: 120
+          TEOneShotTrashMsg: yes
+          TEOpenFolderAfterUnlock: no
+          TENotificationType: 2
+          TELockOnScreenSaver: 1
+          TENeedsAutounlock: 0
+          TEAppAutolockTimeMins: 10
+          tekeyshortcuts:
+            teshowwindow:
+              actionModifier: 0
+              actionKey: -1
+
+  handlers:
+    - name: restart Espionage
+      shell: killall {{item}}
+      ignore_errors: yes
+      with_items:
+        - Espionage
