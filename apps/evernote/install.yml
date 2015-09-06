@@ -1,0 +1,91 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: Install Evernote
+      homebrew_cask: name=evernote
+      environment:
+        HOMEBREW_CASK_OPTS: "--appdir=/Applications"
+
+    - name: Set Evernote settings
+      notify: restart Evernote
+      plist_file:
+        dest: com.evernote.Evernote
+        value:
+          firstLaunch: no
+          ENNotebooksViewMode: 0
+          ENWKNoteEditorPrefsWebKitStandardFont: Helvetica Neue
+          ENNoteViewContextSectionCollapsed: 1
+          ENCPPreferencesPremiumPopoverSkipAdvertisement: yes
+          ENCurrentModule: notes
+          ENWKNoteEditorPrefsWebKitShouldPrintBackgroundsPreferenceKey: yes
+          ENWKNoteEditorPrefsWebKitDefaultFontSize: 14
+          notebooksSortPreference: 2
+
+          ENRemindersExpanded.0834939D-292F-4B4E-9A11-D17E4B1E3D2C: yes
+          ENWelcomeHasShownShareNotePopover.0834939D-292F-4B4E-9A11-D17E4B1E3D2C: yes
+          ENShowWelcomeView.0834939D-292F-4B4E-9A11-D17E4B1E3D2C: yes
+          ENMessagingFLEHasSeenAnnouncement.0834939D-292F-4B4E-9A11-D17E4B1E3D2C: yes
+          ENFullScreenCollectionWindow.0834939D-292F-4B4E-9A11-D17E4B1E3D2C: no
+          ENWelcomeChecklistItemSet.0834939D-292F-4B4E-9A11-D17E4B1E3D2C: upgradingUserItems
+          ENContextUpsellDisplayCounter.0834939D-292F-4B4E-9A11-D17E4B1E3D2C: 2
+          ENMessagingFLEHasVisitedMessagesModule.0834939D-292F-4B4E-9A11-D17E4B1E3D2C: yes
+          ENShareNotebooksCalloutDefaultsKey.0834939D-292F-4B4E-9A11-D17E4B1E3D2C: yes
+          ENExpandedLeftNavItemsHaveBeenSet.0834939D-292F-4B4E-9A11-D17E4B1E3D2C: yes
+          sortPropertyKey.0834939D-292F-4B4E-9A11-D17E4B1E3D2C: 2
+          CardViewWidth.0834939D-292F-4B4E-9A11-D17E4B1E3D2C: 431.0
+          NSOutlineView Items ENExpandedLeftNavItems.0834939D-292F-4B4E-9A11-D17E4B1E3D2C:
+            - shortcuts
+            - notes
+            - recents
+
+          meetingNotificationsEnabled: no
+          meetingNotificationsInTestPopulation: no
+
+          HockeySDKCrashReportActivated: yes
+          HockeySDKAutomaticallySendCrashReports: no
+
+          helperPrefsHaveBeenSet: yes
+          runHelperWithoutMainApp: yes
+          runHelperAtLogin: yes
+
+          SUEnableAutomaticChecks: yes
+          SUScheduledCheckInterval: 86400.0
+          WebKitLocalStorageEnabledPreferenceKey: yes
+          NSToolbar Configuration 5B70890F-ABD4-4585-A16B-8884BD9D1573:
+            TB Is Shown: 1
+            TB Icon Size Mode: 1
+            TB Size Mode: 1
+            TB Display Mode: 2
+
+    - name: Set Evernote Helper settings
+      notify: restart Evernote
+      plist_file:
+        dest: com.evernote.EvernoteHelper
+        value:
+          ENPlaySoundAfterClip: yes
+          showsStatusBarItem: yes
+          meetingNotificationsEnabled: no
+          ShortcutRecorder newnotewindow:
+            keyCode: 45
+            modifierFlags: 1835008
+          ShortcutRecorder search:
+            keyCode: 14
+            modifierFlags: 1310720
+          ShortcutRecorder screenshot:
+            keyCode: 8
+            modifierFlags: 1310720
+          ShortcutRecorder pasteboard:
+            keyCode: 9
+            modifierFlags: 1310720
+          ShortcutRecorder newnote:
+            keyCode: 45
+            modifierFlags: 1310720
+
+  handlers:
+    - name: restart Evernote
+      shell: killall {{item}}
+      ignore_errors: yes
+      with_items:
+        - Evernote
+        - Evernote Helper

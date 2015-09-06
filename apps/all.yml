@@ -23,6 +23,7 @@
 - include: google-drive/install.yml
 
 # Productivity
+- include: evernote/install.yml
 
 # Documents
 - include: xmind/install.yml
