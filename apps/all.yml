@@ -43,3 +43,4 @@
 - include: android-file-transfer/install.yml
 - include: burn/install.yml
 - include: espionage/install.yml
+- include: music-manager/install.yml
