@@ -4,6 +4,9 @@
 - include: atom/install.yml
 - include: intellij-idea/install.yml
 
+# Development
+- include: iterm/install.yml
+
 # Security
 - include: 1password/install.yml
 
