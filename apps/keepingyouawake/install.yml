@@ -1,0 +1,15 @@
+---
+- hosts: workstation
+
+  tasks:
+    - name: Install KeepingYouAwake
+      homebrew_cask: name=keepingyouawake
+      environment:
+        HOMEBREW_CASK_OPTS: "--appdir=/Applications"
+
+  handlers:
+    - name: restart KeepingYouAwake
+      shell: killall {{item}}
+      ignore_errors: yes
+      with_items:
+        - KeepingYouAwake
