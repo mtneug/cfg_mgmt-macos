@@ -11,6 +11,9 @@
         - name: docker-machine
           install_options:
 
+        - name: docker-machine-parallels
+          install_options:
+
         - name: docker-compose
           install_options:
 
