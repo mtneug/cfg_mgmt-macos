@@ -7,3 +7,5 @@
       with_items:
         - name: go
           install_options: with-cc-common
+
+    # TODO: Create GOPATH

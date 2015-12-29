@@ -9,9 +9,12 @@
         - homebrew/dupes
         - homebrew/science
         - homebrew/devel-only
+        - homebrew/versions
+        - homebrew/x11
         - caskroom/cask
         - caskroom/versions
         - caskroom/fonts
+        - caskroom/unofficial
 
     - name: Update Homebrew
       homebrew: update_homebrew=yes upgrade_all=yes

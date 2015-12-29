@@ -96,5 +96,6 @@
         name: vim
         remote: git@github.com:mtneug/dotfiles-vim.git
 
-    - name: Install vim plugins
-      shell: vim +PluginInstall +qall > /dev/null 2>&1
+    # TODO:
+    # - name: Install vim plugins
+    #   shell: vim +PluginInstall +qall > /dev/null 2>&1

@@ -1,34 +1,35 @@
 ---
 
-- include: homebrew/install.yml
-- include: libraries/install.yml
+# Foundational stuff / Libraries
+- include: foundation/homebrew/install.yml
+- include: foundation/libraries/install.yml
+- include: foundation/version-controll/install.yml
 
-- include: version-controll/install.yml
+# Languages
+- include: languages/python/install.yml
+- include: languages/ruby/install.yml
+- include: languages/javascript/install.yml
+- include: languages/go/install.yml
+- include: languages/haskell/install.yml
+- include: languages/java/install.yml
+- include: languages/c-cpp/install.yml
 
-- include: python/install.yml
-- include: ruby/install.yml
-- include: javascript/install.yml
-- include: go/install.yml
-- include: haskell/install.yml
-- include: java/install.yml
-- include: c-cpp/install.yml
+# Platforms
+- include: platforms/android/install.yml
+- include: platforms/ios/install.yml
+- include: platforms/web/install.yml
 
-- include: android/install.yml
-- include: ios/install.yml
+# General purpose tools
+- include: tools-general/shells/install.yml
+- include: tools-general/utilities/install.yml
 
-- include: browser/install.yml
-- include: css/install.yml
-
-- include: shells/install.yml
-- include: utilities/install.yml
-
-- include: image/install.yml
-- include: audio/install.yml
-- include: video/install.yml
-- include: documents/install.yml
-- include: data/install.yml
-
-- include: network/install.yml
-- include: database/install.yml
-- include: docker/install.yml
-- include: security/install.yml
+# Specific tools
+- include: tools-specific/image/install.yml
+- include: tools-specific/audio/install.yml
+- include: tools-specific/video/install.yml
+- include: tools-specific/documents/install.yml
+- include: tools-specific/data/install.yml
+- include: tools-specific/network/install.yml
+- include: tools-specific/database/install.yml
+- include: tools-specific/docker/install.yml
+- include: tools-specific/security/install.yml

@@ -28,7 +28,6 @@
       npm: name={{item}} state=latest production=yes global=yes
       with_items:
         - karma
-        - coffeelint
         - jshint
 
     - name: Install other JavaScript CLI tools
