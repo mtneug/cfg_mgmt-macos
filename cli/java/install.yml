@@ -12,6 +12,13 @@
         - java7
         - java
 
+    - name: Install Java development tools
+      homebrew_cask: name={{item}}
+      environment:
+        HOMEBREW_CASK_OPTS: "--appdir=/Applications"
+      with_items:
+        - visualvm
+
     - name: Install Java build tools
       homebrew: name={{item}}
       with_items:
