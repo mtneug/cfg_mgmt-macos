@@ -24,9 +24,6 @@
         - name: gnu-tar
           install_options: with-default-names
 
-        - name: gnu-time
-          install_options: with-default-names
-
         - name: gnu-which
           install_options: with-default-names
 
