@@ -8,6 +8,7 @@
     - dev/lang/python
 
     - dev/cli/ansible
+    - dev/cli/curl
     - dev/cli/docker
 
     - dev/gui/xquartz
