@@ -2,6 +2,9 @@
 - name: install ack
   homebrew: name=ack
 
+- name: install base64
+  homebrew: name=base64
+
 - name: install coreutils
   homebrew: name=coreutils
 
