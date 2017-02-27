@@ -5,6 +5,7 @@
 
     - sys/cli/aspell
     - sys/cli/bash
+    - sys/cli/curl
     - sys/cli/fish
     - sys/cli/hunspell
     - sys/cli/the_silver_searcher
@@ -27,7 +28,6 @@
     - dev/lang/ruby-tools
 
     - dev/cli/ansible
-    - dev/cli/curl
     - dev/cli/docker
     - dev/cli/git
     - dev/cli/gradle

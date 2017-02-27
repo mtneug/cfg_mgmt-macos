@@ -1,4 +1,4 @@
 ---
 dependencies:
   - role: lib/openssl
-  - role: dev/cli/curl
+  - role: sys/cli/curl
