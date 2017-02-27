@@ -7,3 +7,6 @@
       - homebrew/science
       - caskroom/versions
       - caskroom/fonts
+      - neovim/neovim
+
+- meta: flush_handlers
