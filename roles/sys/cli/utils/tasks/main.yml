@@ -20,9 +20,6 @@
 - name: install gnu-tar
   homebrew: name=gnu-tar install_options=with-default-names
 
-- name: install gnu-time
-  homebrew: name=gnu-time install_options=with-default-names
-
 - name: install gnu-which
   homebrew: name=gnu-which install_options=with-default-names
 
