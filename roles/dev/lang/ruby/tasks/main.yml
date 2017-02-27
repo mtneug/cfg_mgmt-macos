@@ -1,11 +1,3 @@
 ---
 - name: install
   homebrew: name=ruby
-
-- name: install global gems
-  gem: name={{item}} user_install=no
-  with_items:
-    - bundler
-    - rake
-    - pry
-    - rubocop

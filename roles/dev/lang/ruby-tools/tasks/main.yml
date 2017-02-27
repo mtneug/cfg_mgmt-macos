@@ -1,0 +1,8 @@
+---
+- name: install
+  gem: name={{item}} user_install=no
+  with_items:
+    - bundler
+    - rake
+    - pry
+    - rubocop

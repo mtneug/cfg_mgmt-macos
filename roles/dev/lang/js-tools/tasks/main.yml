@@ -1,0 +1,9 @@
+---
+- name: install
+  npm: name={{item}} global=yes
+  with_items:
+    - bower
+    - grunt-cli
+    - gulp-cli
+    - node-inspector
+    - yo

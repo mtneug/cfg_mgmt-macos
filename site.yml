@@ -10,10 +10,13 @@
 - hosts: development
   roles:
     - dev/lang/go
+    - dev/lang/go-tools
     - dev/lang/java
     - dev/lang/js
+    - dev/lang/js-tools
     - dev/lang/python
     - dev/lang/ruby
+    - dev/lang/ruby-tools
 
     - dev/cli/ansible
     - dev/cli/curl
