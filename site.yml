@@ -38,6 +38,7 @@
     - dev/cli/nmap
     - dev/cli/phantomjs
     - dev/cli/shellcheck
+    - dev/cli/tcpdump
     - dev/cli/tig
 
     - dev/gui/visualvm
