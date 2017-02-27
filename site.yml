@@ -51,6 +51,7 @@
     - media/cli/imagemagick
     - media/cli/mediainfo
     - media/cli/rtmpdump
+    - media/cli/youtube-dl
 
     - media/gui/adobe-creative-cloud
     - media/gui/vlc
