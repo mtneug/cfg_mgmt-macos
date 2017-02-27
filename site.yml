@@ -6,5 +6,8 @@
 - hosts: development
   roles:
     - dev/lang/python
+
     - dev/cli/ansible
+    - dev/cli/docker
+
     - dev/gui/xquartz
