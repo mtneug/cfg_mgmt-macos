@@ -1,0 +1,20 @@
+---
+- name: install
+  homebrew:
+    name: imagemagick
+    install_options:
+      - with-fontconfig
+      - with-hdri
+      - with-opencl
+      - with-openmp
+      - with-x11
+
+      - with-liblqr
+      - with-librsvg
+      - with-libwmf
+      - with-little-cms
+      - with-little-cms2
+      - with-openexr
+      - with-openjpeg
+      - with-pango
+      - with-webp
