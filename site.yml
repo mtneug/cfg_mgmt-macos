@@ -3,6 +3,7 @@
   roles:
     - sys/conf/homebrew
 
+    - sys/cli/aspell
     - sys/cli/bash
     - sys/cli/fish
     - sys/cli/main-utils
