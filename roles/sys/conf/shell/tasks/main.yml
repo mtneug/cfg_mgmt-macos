@@ -1,0 +1,16 @@
+---
+- name: current value
+  become: true
+  shell: dscl . -read /Users/{{ansible_user}} UserShell | awk '{print $2}'
+  register: dscl_user_shell
+  changed_when: false
+
+- name: configure (macOS directory)
+  become: true
+  when: dscl_user_shell.stdout != sys_cli_fish_bin
+  command: dscl . -change /Users/{{ansible_user}} UserShell {{dscl_user_shell.stdout}} {{sys_cli_fish_bin}}
+
+- name: configure (UNIX)
+  become: true
+  when: dscl_user_shell.stdout != sys_cli_fish_bin
+  command: chsh -s {{sys_cli_fish_bin}} {{ansible_user}}

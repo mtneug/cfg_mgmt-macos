@@ -9,6 +9,8 @@
     - sys/cli/tmuxinator
     - sys/cli/vcsh
 
+    - sys/conf/shell
+
 - hosts: development
   roles:
     - dev/lang/go
