@@ -17,6 +17,8 @@
     - sys/cli/wakeonlan
     - sys/cli/wget
 
+    - sys/gui/xquartz
+
     - sys/conf/shell
 
 - hosts: development
@@ -43,7 +45,6 @@
 
     - dev/gui/atom
     - dev/gui/visualvm
-    - dev/gui/xquartz
 
 - hosts: media-production
   roles:
