@@ -11,6 +11,7 @@
     - dev/cli/curl
     - dev/cli/docker
     - dev/cli/git
+    - dev/cli/tig
 
     - dev/gui/xquartz
 
