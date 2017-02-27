@@ -6,6 +6,7 @@
 - hosts: development
   roles:
     - dev/lang/python
+    - dev/lang/ruby
 
     - dev/cli/ansible
     - dev/cli/curl
