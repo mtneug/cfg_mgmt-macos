@@ -19,6 +19,7 @@
     - dev/cli/mercurial
     - dev/cli/tig
 
+    - dev/gui/visualvm
     - dev/gui/xquartz
 
 - hosts: media-production
