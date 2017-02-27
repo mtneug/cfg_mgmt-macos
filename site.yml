@@ -4,6 +4,7 @@
     - sys/conf/homebrew
 
     - sys/cli/fish
+    - sys/cli/bash
 
 - hosts: development
   roles:

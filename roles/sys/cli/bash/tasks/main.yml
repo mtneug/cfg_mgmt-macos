@@ -1,0 +1,6 @@
+---
+- name: install
+  homebrew: name=bash
+
+- name: install completions
+  homebrew: name=bash-completion
