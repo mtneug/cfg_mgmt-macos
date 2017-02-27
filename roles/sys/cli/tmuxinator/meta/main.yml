@@ -1,4 +1,4 @@
 ---
 dependencies:
-  - role: dev/lang/tmux
+  - role: sys/cli/tmux
   - role: dev/lang/ruby
