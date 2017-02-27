@@ -1,2 +1,5 @@
 [development]
 localhost    ansible_connection=local
+
+[media-production]
+localhost    ansible_connection=local

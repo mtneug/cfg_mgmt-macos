@@ -11,3 +11,7 @@
     - dev/cli/docker
 
     - dev/gui/xquartz
+
+- hosts: media-production
+  roles:
+    - media/gui/vlc
