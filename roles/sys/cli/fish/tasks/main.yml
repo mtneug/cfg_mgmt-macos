@@ -1,3 +1,9 @@
 ---
 - name: install
   homebrew: name=fish
+
+- name: add to shell list
+  become: true
+  lineinfile:
+    dest: /etc/shells
+    line: "{{sys_cli_fish_bin}}"
