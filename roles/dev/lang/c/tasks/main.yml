@@ -1,0 +1,6 @@
+---
+- name: install gcc
+  homebrew: name=gcc
+
+- name: install binutils
+  homebrew: name=binutils

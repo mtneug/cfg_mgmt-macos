@@ -23,6 +23,7 @@
 
 - hosts: development
   roles:
+    - dev/lang/c
     - dev/lang/go
     - dev/lang/go-tools
     - dev/lang/java
