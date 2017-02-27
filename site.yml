@@ -3,6 +3,7 @@
   roles:
     - sys/conf/homebrew
 
+    - sys/cli/aria2
     - sys/cli/aspell
     - sys/cli/bash
     - sys/cli/curl
