@@ -50,6 +50,7 @@
   roles:
     - media/cli/imagemagick
     - media/cli/mediainfo
+    - media/cli/rtmpdump
 
     - media/gui/adobe-creative-cloud
     - media/gui/vlc
