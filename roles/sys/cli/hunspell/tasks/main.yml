@@ -1,0 +1,5 @@
+---
+- name: install
+  homebrew: name=hunspell
+
+# TODO: add dictionary files to ~/Library/Spelling/

@@ -6,6 +6,7 @@
     - sys/cli/aspell
     - sys/cli/bash
     - sys/cli/fish
+    - sys/cli/hunspell
     - sys/cli/main-utils
     - sys/cli/the_silver_searcher
     - sys/cli/tmux
