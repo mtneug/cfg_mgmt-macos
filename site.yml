@@ -17,6 +17,7 @@
     - dev/cli/git
     - dev/cli/gradle
     - dev/cli/mercurial
+    - dev/cli/phantomjs
     - dev/cli/tig
 
     - dev/gui/visualvm
