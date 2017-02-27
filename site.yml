@@ -34,6 +34,7 @@
     - dev/lang/ruby-tools
 
     - dev/cli/ansible
+    - dev/cli/cmake
     - dev/cli/docker
     - dev/cli/git
     - dev/cli/gradle
