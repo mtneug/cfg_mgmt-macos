@@ -10,6 +10,7 @@
     - dev/cli/ansible
     - dev/cli/curl
     - dev/cli/docker
+    - dev/cli/git
 
     - dev/gui/xquartz
 

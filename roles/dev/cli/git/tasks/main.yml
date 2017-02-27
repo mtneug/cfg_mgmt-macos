@@ -1,0 +1,8 @@
+---
+- name: install
+  homebrew:
+    name: git
+    install_options:
+      - with-gettext
+      - with-brewed-curl
+      - with-brewed-openssl
