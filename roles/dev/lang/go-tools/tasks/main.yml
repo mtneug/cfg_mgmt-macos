@@ -24,3 +24,13 @@
       bin: dlv
     - pkg: github.com/nsf/gocode
       bin: gocode
+    - pkg: github.com/sqs/goreturns
+      bin: goreturns
+    - pkg: github.com/alecthomas/gometalinter
+      bin: gometalinter
+    - pkg: github.com/zmb3/gogetdoc
+      bin: gogetdoc
+    - pkg: github.com/rogpeppe/godef
+      bin: godef
+    - pkg: golang.org/x/tools/cmd/guru
+      bin: guru
