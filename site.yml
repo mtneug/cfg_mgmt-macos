@@ -32,6 +32,7 @@
     - dev/cli/git
     - dev/cli/gradle
     - dev/cli/mercurial
+    - dev/cli/nmap
     - dev/cli/phantomjs
     - dev/cli/shellcheck
     - dev/cli/tig
