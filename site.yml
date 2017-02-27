@@ -6,6 +6,7 @@
     - sys/cli/bash
     - sys/cli/fish
     - sys/cli/tmux
+    - sys/cli/tmuxinator
 
 - hosts: development
   roles:

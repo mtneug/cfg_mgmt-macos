@@ -1,0 +1,4 @@
+---
+dependencies:
+  - role: dev/lang/tmux
+  - role: dev/lang/ruby
