@@ -3,6 +3,7 @@
 # assumptions
 echo "==> Assumptions"
 echo "* Xcode is installed and opend at least once"
+echo "* SSH key was created and added to GitHub"
 read
 
 # install homebrew
