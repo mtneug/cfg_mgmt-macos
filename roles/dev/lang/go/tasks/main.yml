@@ -1,0 +1,29 @@
+---
+- name: install
+  homebrew: name=go
+
+- name: install Go tools
+  command: go get {{item.pkg}}
+  args:
+    creates: /Users/{{ansible_user}}/.go/bin/{{item.bin}}
+  environment:
+    GOPATH: /Users/{{ansible_user}}/.go
+  with_items:
+    - pkg: golang.org/x/tools/cmd/godex
+      bin: godex
+    - pkg: golang.org/x/tools/cmd/godoc
+      bin: godoc
+    - pkg: golang.org/x/tools/cmd/goimports
+      bin: goimports
+    - pkg: golang.org/x/tools/cmd/gomvpkg
+      bin: gomvpkg
+    - pkg: golang.org/x/tools/cmd/gorename
+      bin: gorename
+    - pkg: golang.org/x/tools/cmd/gotype
+      bin: gotype
+    - pkg: github.com/FiloSottile/gvt
+      bin: gvt
+    - pkg: github.com/derekparker/delve/cmd/dlv
+      bin: dlv
+    - pkg: github.com/nsf/gocode
+      bin: gocode

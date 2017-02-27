@@ -1,0 +1,4 @@
+---
+dependencies:
+  - role: dev/cli/git
+  - role: dev/cli/mercurial

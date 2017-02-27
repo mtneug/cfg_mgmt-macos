@@ -5,6 +5,7 @@
 
 - hosts: development
   roles:
+    - dev/lang/go
     - dev/lang/js
     - dev/lang/python
     - dev/lang/ruby
