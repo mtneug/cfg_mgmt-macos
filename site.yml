@@ -3,6 +3,8 @@
   roles:
     - sys/conf/homebrew
 
+    - sys/cli/fish
+
 - hosts: development
   roles:
     - dev/lang/go
