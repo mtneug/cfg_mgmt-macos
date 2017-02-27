@@ -41,6 +41,7 @@
     - dev/cli/tcpdump
     - dev/cli/tig
 
+    - dev/gui/atom
     - dev/gui/visualvm
     - dev/gui/xquartz
 
