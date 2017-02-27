@@ -1,0 +1,3 @@
+---
+- name: install
+  homebrew: name=openssl install_options=universal
