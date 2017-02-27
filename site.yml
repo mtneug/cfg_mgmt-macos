@@ -49,6 +49,7 @@
 - hosts: media-production
   roles:
     - media/cli/imagemagick
+    - media/cli/mediainfo
 
     - media/gui/adobe-creative-cloud
     - media/gui/vlc
