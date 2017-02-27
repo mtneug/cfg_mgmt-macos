@@ -1,6 +1,6 @@
 ---
 - name: become root
-  become: yes
+  become: true
   command: "true"
   changed_when: false
 
