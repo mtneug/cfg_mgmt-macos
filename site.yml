@@ -14,6 +14,7 @@
     - sys/cli/tmuxinator
     - sys/cli/utils
     - sys/cli/vcsh
+    - sys/cli/wakeonlan
     - sys/cli/wget
 
     - sys/conf/shell
