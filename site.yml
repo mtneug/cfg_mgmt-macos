@@ -5,6 +5,7 @@
 
     - sys/cli/bash
     - sys/cli/fish
+    - sys/cli/main-utils
     - sys/cli/tmux
     - sys/cli/tmuxinator
     - sys/cli/vcsh

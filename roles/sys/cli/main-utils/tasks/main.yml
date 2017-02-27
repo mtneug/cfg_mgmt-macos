@@ -1,0 +1,51 @@
+---
+- name: install ack
+  homebrew: name=ack
+
+- name: install coreutils
+  homebrew: name=coreutils
+
+- name: install diffutils
+  homebrew: name=diffutils
+
+- name: install findutils
+  homebrew: name=findutils install_options=with-default-names
+
+- name: install gnu-sed
+  homebrew: name=gnu-sed install_options=with-default-names
+
+- name: install gnu-tar
+  homebrew: name=gnu-tar install_options=with-default-names
+
+- name: install gnu-time
+  homebrew: name=gnu-time install_options=with-default-names
+
+- name: install gnu-which
+  homebrew: name=gnu-which install_options=with-default-names
+
+- name: install grep
+  homebrew: name=grep install_options=with-default-names
+
+- name: install less
+  homebrew: name=less
+
+- name: install lsof
+  homebrew: name=lsof
+
+- name: install pv
+  homebrew: name=pv install_options=with-gettext
+
+- name: install rename
+  homebrew: name=rename
+
+- name: install rsync
+  homebrew: name=rsync
+
+- name: install ssh-copy-id
+  homebrew: name=ssh-copy-id
+
+- name: install tree
+  homebrew: name=tree
+
+- name: install watch
+  homebrew: name=watch
