@@ -1,4 +1,0 @@
-  com.apple.menuextra.clock:
-    DateFormat: "EEE d. MMM  HH:mm:ss"
-    FlashDateSeparators: no
-    IsAnalog: no

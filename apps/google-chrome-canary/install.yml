@@ -1,8 +1,0 @@
----
-- hosts: workstation
-
-  tasks:
-    - name: Install Google Chrome Canary
-      homebrew_cask: name=google-chrome-canary
-      environment:
-        HOMEBREW_CASK_OPTS: "--appdir=/Applications"

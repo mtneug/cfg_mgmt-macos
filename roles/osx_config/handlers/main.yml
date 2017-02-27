@@ -1,7 +1,0 @@
----
-
-- name: restart after configuration
-  when: item.changed and osx_config_restart[item.item].restart
-  shell: killall {{ osx_config_restart[item.item].restart_apps | join(" ") }}
-  ignore_errors: yes
-  with_items: osx_config_results.results

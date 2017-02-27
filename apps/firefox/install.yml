@@ -1,8 +1,0 @@
----
-- hosts: workstation
-
-  tasks:
-    - name: Install Firefox
-      homebrew_cask: name=firefox
-      environment:
-        HOMEBREW_CASK_OPTS: "--appdir=/Applications"

@@ -1,6 +1,0 @@
-  com.apple.speech.recognition.AppleSpeechRecognition.prefs:
-    DictationIMIntroMessagePresented: yes
-    DictationIMPresentedOfflineUpgradeSuggestion: yes
-
-    DictationIMMasterDictationEnabled: no
-    DictationIMUseOnlyOfflineDictation: no

@@ -1,9 +1,0 @@
-  com.apple.universalaccess:
-    login: no
-    # Use scroll gesture with the Alt modifier key to zoom
-    closeViewHotkeysEnabled: no
-    closeViewScrollWheelToggle: yes
-    closeViewScrollWheelModifiersInt: 524288
-    # Follow the keyboard focus while zoomed in
-    closeViewZoomFollowsFocus: yes
-    closeViewZoomFactor: 1

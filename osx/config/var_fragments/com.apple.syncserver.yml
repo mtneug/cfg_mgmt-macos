@@ -1,3 +1,0 @@
-  com.apple.syncserver:
-    RunCompletelyDisabled: "NO"
-    SyncServicesResetWorldRunOnce: yes

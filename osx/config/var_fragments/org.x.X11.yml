@@ -1,4 +1,0 @@
-  org.x.X11:
-    # Disable "focus follows mouse" for all X11 apps
-    # i.e. hover over a window and start typing in it without clicking first
-    wm_ffm: yes

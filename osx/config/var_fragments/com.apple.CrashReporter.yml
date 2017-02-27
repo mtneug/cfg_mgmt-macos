@@ -1,3 +1,0 @@
-  com.apple.CrashReporter:
-    # Disable the crash reporter
-    DialogType: none

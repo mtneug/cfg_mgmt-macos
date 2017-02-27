@@ -1,3 +1,0 @@
-  com.apple.print.PrintingPrefs:
-    # Automatically quit printer app once the print jobs complete
-    Quit When Finished: yes

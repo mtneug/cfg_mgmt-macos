@@ -1,6 +1,0 @@
-  com.apple.BezelServices:
-    # Automatically illuminate built-in MacBook keyboard in low light
-    kDim: yes
-
-    # Turn off keyboard illumination when computer is not used for x seconds
-    kDimTime: 300 # 5 min.

@@ -1,9 +1,0 @@
-  com.apple.frameworks.diskimages:
-    # Automatically open a new Finder window when a volume is mounted
-    auto-open-ro-root: yes
-    auto-open-rw-root: yes
-
-    # Disable disk image verification
-    skip-verify: yes
-    skip-verify-locked: yes
-    skip-verify-remote: yes

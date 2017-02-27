@@ -1,3 +1,0 @@
-  com.apple.desktopservices:
-    # Don't write .DS_Store files over network connections
-    DSDontWriteNetworkStores: yes

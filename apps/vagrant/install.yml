@@ -1,8 +1,0 @@
----
-- hosts: workstation
-
-  tasks:
-    - name: Install Vagrant
-      homebrew_cask: name=vagrant
-      environment:
-        HOMEBREW_CASK_OPTS: "--appdir=/Applications"

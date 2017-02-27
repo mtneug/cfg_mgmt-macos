@@ -1,8 +1,0 @@
----
-- hosts: workstation
-
-  tasks:
-    - name: Install Android SDK
-      homebrew: name=android-sdk
-
-      # TODO: install packages (e.g. HAXM)

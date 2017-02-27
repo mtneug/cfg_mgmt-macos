@@ -1,3 +1,0 @@
-  com.apple.BluetoothAudioAgent:
-    # Increase sound quality for Bluetooth headphones/headsets
-    Apple Bitpool Min (editable): 40

@@ -1,9 +1,0 @@
----
-- hosts: workstation
-
-  tasks:
-    - name: Install audio CLI tools
-      homebrew: name={{item.name}} install_options={{item.install_options}}
-      with_items:
-        - name: mpg123
-          install_options:

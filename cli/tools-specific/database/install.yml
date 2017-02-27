@@ -1,9 +1,0 @@
----
-- hosts: workstation
-
-  tasks:
-    - name: Install databases
-      homebrew: name={{item.name}} install_options={{item.install_options}}
-      with_items:
-        - name: sqlite
-          install_options: universal,with-functions

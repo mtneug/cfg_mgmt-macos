@@ -1,8 +1,0 @@
----
-- hosts: workstation
-
-  tasks:
-    - name: Install Adobe Creative Cloud
-      homebrew_cask: name=adobe-creative-cloud
-      environment:
-        HOMEBREW_CASK_OPTS: "--appdir=/Applications"

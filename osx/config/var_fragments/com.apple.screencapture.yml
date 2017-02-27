@@ -1,5 +1,0 @@
-  com.apple.screencapture:
-    disable-shadow: no
-    location: /Users/{{ansible_ssh_user}}/Desktop
-    # bmp, gif, jpg, pdf, tiff
-    type: png

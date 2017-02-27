@@ -1,5 +1,0 @@
-  com.apple.iApps:
-    iTunesRecentDatabasePaths:
-      - ~/.itunes/iTunes Music Library.xml
-    iTunesRecentDatabases:
-      - file:///Users/{{ ansible_ssh_user }}/.itunes/iTunes%20Music%20Library.xml

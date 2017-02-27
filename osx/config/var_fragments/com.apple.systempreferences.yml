@@ -1,7 +1,0 @@
-  com.apple.systempreferences:
-    AppleHighlightColor: "1.000000 0.937255 0.690196"
-    AppleOtherHighlightColor: "1.000000 0.937255 0.690196"
-    DSKDesktopPrefPane:
-      UserFolderPaths:
-        - /Users/{{ansible_ssh_user}}/Pictures/_export_/.wallpaper
-    ShowAllMode: no
