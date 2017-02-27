@@ -3,8 +3,9 @@
   roles:
     - sys/conf/homebrew
 
-    - sys/cli/fish
     - sys/cli/bash
+    - sys/cli/fish
+    - sys/cli/tmux
 
 - hosts: development
   roles:

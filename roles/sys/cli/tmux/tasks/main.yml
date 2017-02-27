@@ -1,0 +1,6 @@
+---
+- name: install
+  homebrew: name=tmux
+
+- name: install macOS fix
+  homebrew: name=reattach-to-user-namespace
