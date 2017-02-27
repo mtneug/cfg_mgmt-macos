@@ -1,7 +1,7 @@
 ---
 - hosts: all
   roles:
-    - sys/homebrew
+    - sys/conf/homebrew
 
 - hosts: development
   roles:
