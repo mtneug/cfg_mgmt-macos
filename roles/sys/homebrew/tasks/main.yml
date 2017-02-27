@@ -1,0 +1,9 @@
+---
+- name: add taps
+  notify: update homebrew
+  homebrew_tap:
+    name:
+      - homebrew/dupes
+      - homebrew/science
+      - caskroom/versions
+      - caskroom/fonts

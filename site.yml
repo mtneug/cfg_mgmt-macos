@@ -1,0 +1,9 @@
+---
+- hosts: all
+  roles:
+    - sys/homebrew
+
+- hosts: development
+  roles:
+    - dev/lang/python
+    - dev/cli/ansible
