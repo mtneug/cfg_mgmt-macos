@@ -9,6 +9,7 @@
     - sys/cli/curl
     - sys/cli/fish
     - sys/cli/hunspell
+    - sys/cli/neovim
     - sys/cli/pandoc
     - sys/cli/the_silver_searcher
     - sys/cli/tmux

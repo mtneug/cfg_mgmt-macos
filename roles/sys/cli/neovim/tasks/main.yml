@@ -1,0 +1,7 @@
+---
+- name: install
+  homebrew: name=neovim
+
+# TODO:
+# - name: install plugins
+#   shell: vim +PluginInstall +qall > /dev/null 2>&1
