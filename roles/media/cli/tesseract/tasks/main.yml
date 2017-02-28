@@ -1,0 +1,11 @@
+---
+- name: install dependency (leptonica)
+  homebrew:
+    name: leptonica
+    install_options:
+      - with-giflib
+      - with-openjpeg
+      - with-webp
+
+- name: install
+  homebrew: name=tesseract install_options=with-all-languages
