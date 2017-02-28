@@ -1,0 +1,4 @@
+---
+dependencies:
+  - role: lib/openssl
+  - role: dev/lang/java
