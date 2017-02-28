@@ -21,6 +21,8 @@
 
     - sys/gui/xquartz
 
+    - sys/misc/fonts
+
     - sys/conf/shell
 
     - pvt/gui/firefox
@@ -68,5 +70,3 @@
 
     - media/gui/adobe-creative-cloud
     - media/gui/obs
-
-    - media/misc/fonts
