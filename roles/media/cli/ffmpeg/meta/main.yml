@@ -1,0 +1,6 @@
+---
+dependencies:
+  - role: lib/openssl
+  - role: media/cli/rtmpdump
+  - role: media/cli/sox
+  - role: media/cli/tesseract
