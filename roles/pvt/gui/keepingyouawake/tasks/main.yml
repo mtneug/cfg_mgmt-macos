@@ -1,3 +1,15 @@
 ---
 - name: install
   homebrew_cask: name=keepingyouawake
+
+- name: configure
+  notify: restart keepingyouawakes
+  plist_file:
+    dest: info.marcel-dierkes.KeepingYouAwake
+    value:
+      SUEnableAutomaticChecks: true
+      SUHasLaunchedBefore: true
+      info.marcel-dierkes.KeepingYouAwake.ActivateOnLaunch: false
+      info.marcel-dierkes.KeepingYouAwake.BatteryCapacityThresholdEnabled: false
+      info.marcel-dierkes.KeepingYouAwake.NotificationsEnabled: true
+      info.marcel-dierkes.KeepingYouAwake.TimeInterval: false
