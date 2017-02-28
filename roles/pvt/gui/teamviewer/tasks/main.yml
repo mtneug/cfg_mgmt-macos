@@ -1,0 +1,12 @@
+---
+- name: install
+  homebrew_cask: name=teamviewer
+
+- name: configure
+  notify: restart teamviewer
+  plist_file:
+    dest: com.teamviewer.TeamViewer
+    value:
+      SUAutomaticallyUpdate: true
+      SUEnableAutomaticChecks: true
+      SUSendProfileInfo: false

@@ -1,0 +1,6 @@
+---
+- name: restart teamviewer
+  shell: killall {{item}}
+  ignore_errors: true
+  with_items:
+    - TeamViewer
