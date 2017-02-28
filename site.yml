@@ -1,9 +1,14 @@
 ---
 - hosts: all
   roles:
+    # Install fundamental roles first. These are not expressed as role
+    # dependencies as most roles need them.
     - lib/ansible-modules-libs
     - sys/conf/homebrew
+    - sys/cli/vcsh
 
+- hosts: personal
+  roles:
     # - sys/dev/cuda
     - sys/dev/paragon-extfs
 
@@ -21,7 +26,6 @@
     - sys/cli/tmux
     - sys/cli/tmuxinator
     - sys/cli/utils
-    - sys/cli/vcsh
     - sys/cli/wakeonlan
     - sys/cli/wget
 
