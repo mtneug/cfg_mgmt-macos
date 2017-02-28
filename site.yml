@@ -30,6 +30,7 @@
     - pvt/gui/firefox
     - pvt/gui/google-chrome
     - pvt/gui/spotify
+    - pvt/gui/toggldesktop
     - pvt/gui/vlc
 
 - hosts: development
