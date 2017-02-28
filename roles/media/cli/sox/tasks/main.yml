@@ -1,0 +1,12 @@
+---
+- name: install
+  homebrew:
+    name: sox
+    install_options:
+      - with-flac
+      - with-lame
+      - with-libao
+      - with-libsndfile
+      - with-libvorbis
+      - with-opencore-amr
+      - with-opusfile
