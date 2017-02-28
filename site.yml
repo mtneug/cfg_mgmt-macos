@@ -57,6 +57,7 @@
     - dev/cli/tig
 
     - dev/gui/atom
+    - dev/gui/virtualbox
     - dev/gui/visualvm
 
 - hosts: media-production
