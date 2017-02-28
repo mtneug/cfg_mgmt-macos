@@ -1,0 +1,13 @@
+---
+- name: install
+  homebrew_cask: name={{item}}
+  with_items:
+    - font-anonymouspro-nerd-font-mono
+    - font-bitstreamverasansmono-nerd-font-mono
+    - font-dejavusansmono-nerd-font-mono
+    - font-droidsansmono-nerd-font-mono
+    - font-hack-nerd-font-mono
+    - font-meslo-nerd-font-mono
+    - font-robotomono-nerd-font-mono
+    - font-sourcecodepro-nerd-font-mono
+    - font-ubuntumono-nerd-font-mono
