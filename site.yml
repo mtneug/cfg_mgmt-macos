@@ -22,6 +22,10 @@
 
     - sys/conf/shell
 
+    - pvt/gui/firefox
+    - pvt/gui/google-chrome
+    - pvt/gui/spotify
+
 - hosts: development
   roles:
     - dev/lang/c
