@@ -67,5 +67,6 @@
     - media/cli/youtube-dl
 
     - media/gui/adobe-creative-cloud
+    - media/gui/obs
 
     - media/misc/fonts
