@@ -26,6 +26,7 @@
 
     - sys/conf/shell
 
+    - pvt/gui/burn
     - pvt/gui/firefox
     - pvt/gui/google-chrome
     - pvt/gui/spotify

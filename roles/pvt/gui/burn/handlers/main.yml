@@ -1,0 +1,6 @@
+---
+- name: restart burn
+  shell: killall {{item}}
+  ignore_errors: true
+  with_items:
+    - Burn

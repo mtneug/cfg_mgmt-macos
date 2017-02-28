@@ -1,0 +1,58 @@
+---
+- name: install
+  homebrew_cask: name=burn
+
+- name: configure
+  notify: restart burn
+  plist_file:
+    dest: com.kiwifruitware.Burn
+    value:
+      DRBurnOptionsBurnSpeed: 65535
+      KWAllowMSMPEG4: false
+      KWAllowOverBurning: false
+      KWBurnOptionsCompletionAction: DRBurnCompletionActionMount
+      KWBurnOptionsVerifyBurn: false
+      KWCalculateFilePackageSizes: true
+      KWCalculateFolderSizes: true
+      KWCalculateTotalSize: true
+      KWCleanTemporaryFolderAction: 0
+      KWCreateAlbumFolders: true
+      KWCreateArtistFolders: true
+      KWCustomDivXSize: false
+      KWCustomDivXSoundBitrate: false
+      KWCustomDivXVideoBitrate: false
+      KWCustomDVDSoundBitrate: false
+      KWCustomDVDVideoBitrate: false
+      KWCustomFPS: false
+      KWDebug: false
+      KWDefaultAudioType: 0
+      KWDefaultCDMedia: 6
+      KWDefaultDataType: 2
+      KWDefaultDivXSoundType: 0
+      KWDefaultDVDMedia: 4
+      KWDefaultDVDSoundType: 0
+      KWDefaultMedia: 0
+      KWDefaultMP3Bitrate: 129.0
+      KWDefaultMP3Mode: 1
+      KWDefaultPregap: 1.0
+      KWDefaultRegion: 0
+      KWDefaultVideoType: 0
+      KWDVDForce43: false
+      KWDVDTheme: 0
+      KWDVDThemeFormat: 0
+      KWFirstRun: false
+      KWForceDivX: false
+      KWForceMPEG2: false
+      KWLoopDVD: false
+      KWMuxSeperateStreams: false
+      KWRememberLastTab: true
+      KWRememberPopups: true
+      KWRemuxMPEG2Streams: false
+      KWSaveBorders: false
+      KWShowFilePackagesAsFolder: false
+      KWShowOverwritableSpace: false
+      KWTemporaryLocationPopup: 0
+      KWUseCDText: false
+      KWUseCustomFFMPEG: false
+      KWUseSoundEffects: true
+      KWUseTheme: true
