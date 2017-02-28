@@ -29,6 +29,7 @@
     - pvt/gui/burn
     - pvt/gui/firefox
     - pvt/gui/google-chrome
+    - pvt/gui/keepingyouawake
     - pvt/gui/google-drive
     - pvt/gui/spotify
     - pvt/gui/toggldesktop
