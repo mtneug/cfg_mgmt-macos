@@ -1,0 +1,15 @@
+---
+- name: install
+  homebrew_cask: name=google-drive
+
+- name: configure
+  notify: restart google-drive
+  plist_file:
+    dest: com.google.GoogleDrive
+    value:
+      dontwarntrash-folder: true
+      dontwarntrash-gdoc: false
+      overlayLogging: false
+      overlaysdisabled: false
+      thankyoushown: true
+      usagestats: false
