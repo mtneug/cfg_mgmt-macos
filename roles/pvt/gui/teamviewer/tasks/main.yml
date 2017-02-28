@@ -2,11 +2,29 @@
 - name: install
   homebrew_cask: name=teamviewer
 
-- name: configure
+- name: configure (com.teamviewer.TeamViewer)
   notify: restart teamviewer
   plist_file:
     dest: com.teamviewer.TeamViewer
     value:
       SUAutomaticallyUpdate: true
       SUEnableAutomaticChecks: true
+      SUHasLaunchedBefore: true
+      SUScheduledCheckInterval: 604800
       SUSendProfileInfo: false
+
+- name: configure (com.teamviewer.teamviewer.preferences)
+  notify: restart teamviewer
+  plist_file:
+    dest: com.teamviewer.teamviewer.preferences
+    value:
+      InteractionDefaults:
+        Meeting_ID_InteractionDefaultsType: true
+      LastCorrectorRun: true
+      Meeting_UserName: mtneug
+      MultiMedia:
+        PlayDeviceMac: DefaultOutputDevice
+        RecordingDeviceMac: DefaultInputDevice
+        RemoteAudioReceiveEnabled: false
+      UseNewUI: true
+      Username: mtneug
