@@ -1,6 +1,7 @@
 ---
 - hosts: all
   roles:
+    - lib/ansible-modules-libs
     - sys/conf/homebrew
 
     - sys/cli/aria2

@@ -1,0 +1,11 @@
+---
+- name: check installed (biplist)
+  command: /usr/bin/python -c "import biplist"
+  register: check_installed_biplist
+  ignore_errors: true
+  changed_when: false
+
+- name: install (biplist)
+  become: true
+  when: check_installed_biplist|failed
+  command: /usr/bin/python -m easy_install biplist
