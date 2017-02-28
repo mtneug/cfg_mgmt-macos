@@ -1,3 +1,4 @@
 ---
 dependencies:
   - role: sys/gui/xquartz
+  - role: dev/lang/c
