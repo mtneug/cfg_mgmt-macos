@@ -51,6 +51,7 @@
 
 - hosts: media-production
   roles:
+    - media/cli/diff-pdf
     - media/cli/imagemagick
     - media/cli/mediainfo
     - media/cli/rtmpdump
