@@ -89,6 +89,7 @@
     - dev/cli/tcpdump
     - dev/cli/tig
 
+    - dev/gui/astah-professional
     - dev/gui/atom
     - dev/gui/dash
     - dev/gui/datagrip
