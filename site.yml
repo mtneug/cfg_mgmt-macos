@@ -61,6 +61,8 @@
     - pvt/gui/ubersicht
     - pvt/gui/vlc
 
+    - edu/gui/mendeley-desktop
+
 - hosts: development
   roles:
     - dev/lang/c

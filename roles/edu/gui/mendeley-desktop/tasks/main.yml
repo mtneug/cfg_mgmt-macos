@@ -1,0 +1,3 @@
+---
+- name: install
+  homebrew_cask: name=mendeley-desktop
