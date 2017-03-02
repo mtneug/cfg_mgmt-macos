@@ -73,6 +73,7 @@
     - dev/lang/r
     - dev/lang/ruby
     - dev/lang/ruby-tools
+    - dev/lang/rust
 
     - dev/cli/ansible
     - dev/cli/bats
