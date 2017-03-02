@@ -30,6 +30,7 @@
     - sys/cli/wget
 
     - sys/gui/xquartz
+    - sys/gui/trim-enabler
 
     - sys/misc/fonts
 
