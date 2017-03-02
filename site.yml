@@ -95,6 +95,7 @@
     - dev/gui/datagrip
     - dev/gui/intellij-idea
     - dev/gui/kaleidoscope
+    - dev/gui/parallels-desktop
     - dev/gui/paw
     - dev/gui/rstudio
     - dev/gui/sourcetree
