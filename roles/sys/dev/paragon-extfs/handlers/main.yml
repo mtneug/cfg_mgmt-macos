@@ -1,0 +1,6 @@
+---
+- name: restart paragon-extfs
+  shell: killall {{item}}
+  ignore_errors: true
+  with_items:
+    - com.paragon-software.ExtFS.fsnotify.agent

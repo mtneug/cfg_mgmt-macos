@@ -6,3 +6,13 @@
 
 - name: install
   homebrew_cask: name=paragon-extfs
+
+- name: configure
+  notify: restart paragon-extfs
+  plist_file:
+    dest: com.paragon-software.ExtFS.prefpane
+    value:
+      windows_notifications: false
+      hide_mount_notifications: true
+      hide_no_mount_notifications: false
+      hide_trial_notifications: true
