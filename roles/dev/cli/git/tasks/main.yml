@@ -6,3 +6,6 @@
       - with-gettext
       - with-brewed-curl
       - with-brewed-openssl
+
+- name: configure
+  vcsh: name=dotfiles-git remote=git@github.com:mtneug/dotfiles-git.git
