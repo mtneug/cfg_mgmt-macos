@@ -79,6 +79,7 @@
     - dev/lang/js
     - dev/lang/js-tools
     - dev/lang/python
+    - dev/lang/python-tools
     - dev/lang/r
     - dev/lang/ruby
     - dev/lang/ruby-tools
