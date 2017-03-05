@@ -38,6 +38,8 @@
     - sys/conf/shell
     - sys/conf/macos
 
+    - pvt/cli/weechat
+
     - pvt/gui/1password
     - pvt/gui/alfred
     - pvt/gui/android-file-transfer

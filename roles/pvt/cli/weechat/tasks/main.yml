@@ -1,0 +1,7 @@
+---
+- name: install
+  homebrew:
+    name: weechat
+    install_options:
+      - with-aspell
+      - with-curl
