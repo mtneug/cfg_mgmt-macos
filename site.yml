@@ -118,6 +118,9 @@
     - media/cli/youtube-dl
 
     - media/gui/adobe-creative-cloud
+    - media/gui/blackmagic-atem-switchers
+    - media/gui/blackmagic-davinci-resolve
+    - media/gui/blackmagic-smartview
     - media/gui/google-nik-collection
     - media/gui/colorpicker-skalacolor
     - media/gui/obs
