@@ -1,3 +1,6 @@
 ---
 - name: install
   homebrew: name=ruby
+
+- name: configure
+  vcsh: name=dotfiles-ruby remote=git@github.com:mtneug/dotfiles-ruby.git
