@@ -96,6 +96,7 @@
     - dev/gui/atom
     - dev/gui/dash
     - dev/gui/datagrip
+    - dev/gui/hex-fiend
     - dev/gui/intellij-idea
     - dev/gui/kaleidoscope
     - dev/gui/parallels-desktop
