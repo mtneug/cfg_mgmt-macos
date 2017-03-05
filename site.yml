@@ -95,6 +95,7 @@
     - dev/cli/nmap
     - dev/cli/phantomjs
     - dev/cli/shellcheck
+    - dev/cli/sqlite
     - dev/cli/tcpdump
     - dev/cli/tig
     - dev/cli/vagrant
