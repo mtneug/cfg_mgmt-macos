@@ -6,3 +6,25 @@
 
 - name: install
   homebrew_cask: name=xquartz
+
+- name: configure
+  notify: restart xquartz
+  plist_file:
+    dest: org.macosforge.xquartz.X11
+    value:
+      cache_fonts: true
+      depth: -1
+      done_xinit_check: true
+      enable_fake_buttons: false
+      enable_iglx: false
+      enable_key_equivalents: true
+      no_auth: false
+      nolisten_tcp: true
+      option_sends_alt: false
+      rootless: true
+      scroll_in_device_direction: false
+      sync_keymap: false
+      sync_pasteboard: true
+      wm_click_through: false
+      wm_ffm: false
+      wm_focus_on_new_window: true
