@@ -19,6 +19,7 @@
     - sys/cli/docker
     - sys/cli/exa
     - sys/cli/fish
+    - sys/cli/htop
     - sys/cli/hunspell
     - sys/cli/neovim
     - sys/cli/pandoc
