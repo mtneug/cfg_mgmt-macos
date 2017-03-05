@@ -2,3 +2,4 @@
 dependencies:
   - role: lib/openssl
   - role: sys/cli/curl
+  - role: dev/cli/diff-so-fancy

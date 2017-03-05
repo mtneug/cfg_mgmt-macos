@@ -82,6 +82,7 @@
     - dev/cli/ansible
     - dev/cli/bats
     - dev/cli/cmake
+    - dev/cli/diff-so-fancy
     - dev/cli/git
     - dev/cli/gradle
     - dev/cli/mercurial
