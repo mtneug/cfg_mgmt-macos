@@ -1,3 +1,6 @@
 ---
 - name: install
   homebrew: name=tig
+
+- name: configure
+  vcsh: name=dotfiles-tig remote=git@github.com:mtneug/dotfiles-tig.git
