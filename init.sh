@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # assumptions
 echo "==> Assumptions"
 echo "* Xcode is installed and opend at least once"
@@ -15,6 +17,6 @@ brew install python --universal
 brew install ansible
 
 # clone Ansible repo
-git clone https://github.com/mtneug/cfg_mgmt-macos.git ~/projects/src/github.com/mtneug/cfg_mgmt-macos
+git clone git@github.com:mtneug/cfg_mgmt-macos.git ~/projects/src/github.com/mtneug/cfg_mgmt-macos
 echo "To run the playbook execute the following commands:"
 echo "   cd ~/projects/src/github.com/mtneug/cfg_mgmt-macos && make install"
