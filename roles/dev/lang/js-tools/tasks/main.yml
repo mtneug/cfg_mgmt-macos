@@ -1,5 +1,10 @@
 ---
 - name: install
+  homebrew: name={{item}}
+  with_items:
+    - yarn
+
+- name: install (npm)
   npm: name={{item}} global=yes
   with_items:
     - bower
