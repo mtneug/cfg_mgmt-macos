@@ -1,3 +1,6 @@
 ---
 - name: install
   homebrew: name=node install_options=with-openssl
+
+- name: configure
+  vcsh: name=dotfiles-js remote=git@github.com:mtneug/dotfiles-js.git
