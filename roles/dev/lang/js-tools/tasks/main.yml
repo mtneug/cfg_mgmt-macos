@@ -1,5 +1,5 @@
 ---
-- name: install
+- name: install (Homebrew)
   homebrew: name={{item}}
   with_items:
     - yarn
