@@ -1,0 +1,12 @@
+---
+- name: query status of assessment subsystem
+  command: spctl --status
+  register: spctl_status
+  # return code is 1 if already disabled, but this is not specified in the man-page.
+  ignore_errors: true
+  changed_when: false
+
+- name: disable assessment subsystem
+  become: true
+  when: "'enabled' in spctl_status.stdout"
+  command: spctl --master-disable

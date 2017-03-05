@@ -35,6 +35,7 @@
     - sys/misc/fonts
 
     - sys/conf/shell
+    - sys/conf/macos
 
     - pvt/gui/1password
     - pvt/gui/alfred
