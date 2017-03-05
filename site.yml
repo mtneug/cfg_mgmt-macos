@@ -92,6 +92,7 @@
     - dev/cli/shellcheck
     - dev/cli/tcpdump
     - dev/cli/tig
+    - dev/cli/vagrant
 
     - dev/gui/astah-professional
     - dev/gui/atom

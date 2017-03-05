@@ -1,0 +1,8 @@
+---
+- name: become root
+  become: true
+  command: "true"
+  changed_when: false
+
+- name: install
+  homebrew_cask: name=vagrant
