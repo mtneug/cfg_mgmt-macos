@@ -1,5 +1,6 @@
 ---
 - name: install
   pip:
+    executable: pip3
     name:
       - ptpython
