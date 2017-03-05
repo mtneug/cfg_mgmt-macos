@@ -29,8 +29,9 @@
     - sys/cli/wakeonlan
     - sys/cli/wget
 
-    - sys/gui/xquartz
+    - sys/gui/menumeters
     - sys/gui/trim-enabler
+    - sys/gui/xquartz
 
     - sys/misc/fonts
 
