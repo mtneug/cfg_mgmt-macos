@@ -1,0 +1,12 @@
+language: generic
+
+os: osx
+osx_image: xcode8.2
+
+before_install:
+  - brew update
+  - brew install ansible
+
+script:
+  - make help
+  - make check
