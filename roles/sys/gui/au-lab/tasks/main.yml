@@ -1,0 +1,33 @@
+---
+- name: install
+  homebrew_cask: name=au-lab
+
+- name: configure
+  notify: restart au-lab
+  plist_file:
+    dest: com.apple.audio.aulab
+    value:
+      AULCurrentColorSchemeKey: 0
+      AULMeterRefreshRate: 18
+      AULUseFloatingWindows: false
+      Auto Recording Key: false
+      ControlFineResolutionKeyModifierKey: 524288
+      CreateInspectorForNewAudioUnit: true
+      DeviceIOUsagePreferences:
+        AppleHDAEngineOutput:1B,0,1,2:0: 1
+      KnobMouseTrackingStyle: 1
+      LaunchDocumentStyle: 9
+      MIDIHotMapKeyModifierKey: 1048576
+      OpenDocumentOnLaunchLocation: "/Users/{{ansible_user}}/.config/au-lab/system.trak"
+      PreferredDeviceID: "SoundflowerEngine:0"
+      Recording Delay Key: 0
+      Recording Format Key: 3
+      SearchNetworkForPrefs: false
+      ShowCarbonGenericViewInInspectorWindow: false
+      ShowMidiMappingWindow: true
+      UseCompositedCarbonWindows: true
+      UsePreferredDevice: false
+      UseThreadedLoadingOfAudioUnits: true
+
+- name: add tracks
+  vcsh: name=dotfiles-au-lab remote=git@github.com:mtneug/dotfiles-au-lab.git

@@ -11,6 +11,7 @@
   roles:
     # - sys/dev/cuda
     - sys/dev/paragon-extfs
+    - sys/dev/soundflower
 
     - sys/cli/aria2
     - sys/cli/aspell
@@ -30,6 +31,7 @@
     - sys/cli/wakeonlan
     - sys/cli/wget
 
+    - sys/gui/au-lab
     - sys/gui/menumeters
     - sys/gui/trim-enabler
     - sys/gui/xquartz
@@ -44,7 +46,6 @@
     - pvt/gui/1password
     - pvt/gui/alfred
     - pvt/gui/android-file-transfer
-    - pvt/gui/au-lab
     - pvt/gui/bartender
     - pvt/gui/burn
     - pvt/gui/evernote

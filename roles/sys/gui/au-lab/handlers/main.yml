@@ -1,0 +1,6 @@
+---
+- name: restart au-lab
+  shell: killall "{{item}}"
+  ignore_errors: true
+  with_items:
+    - AU Lab
