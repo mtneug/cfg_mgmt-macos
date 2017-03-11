@@ -1,0 +1,6 @@
+---
+- name: restart mendeley-desktop
+  shell: killall "{{item}}"
+  ignore_errors: true
+  with_items:
+    - Mendeley Desktop

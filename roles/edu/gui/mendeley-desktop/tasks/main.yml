@@ -1,3 +1,126 @@
 ---
 - name: install
   homebrew_cask: name=mendeley-desktop
+
+- name: configure
+  notify: restart mendeley-desktop
+  plist_file:
+    dest: com.mendeley.Mendeley Desktop
+    value:
+      General.welcomeAndCitationPluginDialogShowAgain: false
+      General.automaticDocumentMarkAsRead: true
+
+      Bibtex.escapeSpecialChars: true
+      Bibtex.usePublicationAbbreviations: false
+
+      BibtexSync.enabled: false
+      BibtexSync.path: "/Users/{{ansible_user}}/Documents"
+      BibtexSync.syncMode: SingleFile
+
+      Features.coloredAnnotations: true
+      Features.recommendations: true
+
+      ZoteroSync.enabled: false
+      ZoteroSync.sqliteFilePath: ""
+
+      view.citationStyle: "http://www.zotero.org/styles/apa"
+      view.citationStyleLocale: ""
+      view.citationStyleShowAccess: 1
+      view.recentStyles.0: "http://www.zotero.org/styles/american-medical-association"
+      view.recentStyles.1: "http://www.zotero.org/styles/american-political-science-association"
+      view.recentStyles.2: "http://www.zotero.org/styles/american-sociological-association"
+      view.recentStyles.3: "http://www.zotero.org/styles/chicago-author-date"
+      view.recentStyles.4: "http://www.zotero.org/styles/ieee"
+      view.recentStyles.5: "http://www.zotero.org/styles/harvard1"
+      view.recentStyles.6: "http://www.zotero.org/styles/modern-humanities-research-association"
+      view.recentStyles.7: "http://www.zotero.org/styles/modern-language-association"
+      view.recentStyles.8: "http://www.zotero.org/styles/nature"
+      view.recentStyles.9: "http://www.zotero.org/styles/apa"
+      view.recentStyles.count: 10
+
+
+      ExtraFields.version: 1
+
+      ExtraFields.Bill.0: DoiField
+      ExtraFields.Bill.1: DoiField
+      ExtraFields.Bill.size: 1
+
+      ExtraFields.Book.0: DoiField
+      ExtraFields.Book.1: IsbnField
+      ExtraFields.Book.2: IsbnField
+      ExtraFields.Book.size: 2
+
+      ExtraFields.BookSection.0: DoiField
+      ExtraFields.BookSection.1: IsbnField
+      ExtraFields.BookSection.2: IsbnField
+      ExtraFields.BookSection.size: 2
+
+      ExtraFields.Case.0: DoiField
+      ExtraFields.Case.1: DoiField
+      ExtraFields.Case.size: 1
+
+      ExtraFields.ComputerProgram.0: DoiField
+      ExtraFields.ComputerProgram.1: DoiField
+      ExtraFields.ComputerProgram.size: 1
+
+      ExtraFields.ConferenceProceedings.0: DoiField
+      ExtraFields.ConferenceProceedings.1: DoiField
+      ExtraFields.ConferenceProceedings.size: 1
+
+      ExtraFields.EncyclopediaArticle.0: DoiField
+      ExtraFields.EncyclopediaArticle.1: DoiField
+      ExtraFields.EncyclopediaArticle.size: 1
+
+      ExtraFields.Film.0: DoiField
+      ExtraFields.Film.1: DoiField
+      ExtraFields.Film.size: 1
+
+      ExtraFields.Generic.0: DoiField
+      ExtraFields.Generic.1: DoiField
+      ExtraFields.Generic.size: 1
+
+      ExtraFields.Hearing.0: DoiField
+      ExtraFields.Hearing.1: DoiField
+      ExtraFields.Hearing.size: 1
+
+      ExtraFields.JournalArticle.0: DoiField
+      ExtraFields.JournalArticle.1: ArxivIdField
+      ExtraFields.JournalArticle.2: PmidField
+      ExtraFields.JournalArticle.3: PmidField
+      ExtraFields.JournalArticle.size: 3
+
+      ExtraFields.MagazineArticle.0: DoiField
+      ExtraFields.MagazineArticle.1: DoiField
+      ExtraFields.MagazineArticle.size: 1
+
+      ExtraFields.NewspaperArticle.0: DoiField
+      ExtraFields.NewspaperArticle.1: DoiField
+      ExtraFields.NewspaperArticle.size: 1
+
+      ExtraFields.Patent.0: DoiField
+      ExtraFields.Patent.1: DoiField
+      ExtraFields.Patent.size: 1
+
+      ExtraFields.Report.0: DoiField
+      ExtraFields.Report.1: DoiField
+      ExtraFields.Report.size: 1
+
+      ExtraFields.Statute.0: DoiField
+      ExtraFields.Statute.1: DoiField
+      ExtraFields.Statute.size: 1
+
+      ExtraFields.TelevisionBroadcast.0: DoiField
+      ExtraFields.TelevisionBroadcast.1: DoiField
+      ExtraFields.TelevisionBroadcast.size: 1
+
+      ExtraFields.Thesis.0: DoiField
+      ExtraFields.Thesis.1: DoiField
+      ExtraFields.Thesis.size: 1
+
+      ExtraFields.WebPage.0: DoiField
+      ExtraFields.WebPage.1: DoiField
+      ExtraFields.WebPage.size: 1
+
+      ExtraFields.WorkingPaper.0: DoiField
+      ExtraFields.WorkingPaper.1: DoiField
+      ExtraFields.WorkingPaper.size: 1
