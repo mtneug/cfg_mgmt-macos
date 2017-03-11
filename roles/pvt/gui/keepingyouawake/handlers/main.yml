@@ -1,6 +1,6 @@
 ---
 - name: restart keepingyouawake
-  shell: killall {{item}}
+  shell: killall "{{item}}"
   ignore_errors: true
   with_items:
     - KeepingYouAwake

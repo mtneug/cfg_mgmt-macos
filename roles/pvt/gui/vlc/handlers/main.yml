@@ -1,6 +1,6 @@
 ---
 - name: restart vlc
-  shell: killall -9 {{item}}
+  shell: killall -9 "{{item}}"
   ignore_errors: true
   with_items:
     - VLC
