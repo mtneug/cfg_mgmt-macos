@@ -1,3 +1,6 @@
 ---
 - name: install
   homebrew: name=htop install_options=with-ncurses
+
+- name: configure
+  vcsh: name=dotfiles-htop remote=git@github.com:mtneug/dotfiles-htop.git
