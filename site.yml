@@ -94,6 +94,7 @@
     - dev/cli/git
     - dev/cli/gradle
     - dev/cli/mercurial
+    - dev/cli/mkdocs
     - dev/cli/nmap
     - dev/cli/phantomjs
     - dev/cli/shellcheck
