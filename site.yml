@@ -93,6 +93,7 @@
     - dev/cli/diff-so-fancy
     - dev/cli/git
     - dev/cli/gradle
+    - dev/cli/httpie
     - dev/cli/mercurial
     - dev/cli/mkdocs
     - dev/cli/nmap
