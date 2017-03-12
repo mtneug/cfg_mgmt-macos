@@ -4,3 +4,6 @@
 
 - name: install macOS fix
   homebrew: name=reattach-to-user-namespace
+
+- name: configure
+  vcsh: name=dotfiles-tmux remote=git@github.com:mtneug/dotfiles-tmux.git
