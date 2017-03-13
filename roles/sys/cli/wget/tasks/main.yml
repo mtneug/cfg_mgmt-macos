@@ -1,3 +1,6 @@
 ---
 - name: install
   homebrew: name=wget
+
+- name: configure
+  vcsh: name=dotfiles-wget remote=git@github.com:mtneug/dotfiles-wget.git
