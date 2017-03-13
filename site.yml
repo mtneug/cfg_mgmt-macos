@@ -103,6 +103,7 @@
     - dev/cli/sqlite
     - dev/cli/tcpdump
     - dev/cli/tig
+    - dev/cli/travis
     - dev/cli/vagrant
 
     - dev/gui/astah-professional
