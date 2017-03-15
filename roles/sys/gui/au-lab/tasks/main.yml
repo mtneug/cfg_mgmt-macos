@@ -18,7 +18,7 @@
       KnobMouseTrackingStyle: 1
       LaunchDocumentStyle: 9
       MIDIHotMapKeyModifierKey: 1048576
-      OpenDocumentOnLaunchLocation: "/Users/{{ansible_user}}/.config/au-lab/system.trak"
+      OpenDocumentOnLaunchLocation: "/Users/{{user_name}}/.config/au-lab/system.trak"
       PreferredDeviceID: "SoundflowerEngine:0"
       Recording Delay Key: 0
       Recording Format Key: 3

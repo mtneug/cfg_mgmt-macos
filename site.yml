@@ -1,8 +1,11 @@
 ---
 - hosts: all
+  # Install fundamental roles first. These are not expressed as role
+  # dependencies as most roles need them.
+  pre_tasks:
+    - name: set user_name fact
+      set_fact: user_name={{ ansible_user | default(lookup('env', 'USER'), True) }}
   roles:
-    # Install fundamental roles first. These are not expressed as role
-    # dependencies as most roles need them.
     - lib/ansible-modules-libs
     - sys/conf/homebrew
     - sys/cli/vcsh

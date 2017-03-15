@@ -14,7 +14,7 @@
       Bibtex.usePublicationAbbreviations: false
 
       BibtexSync.enabled: false
-      BibtexSync.path: "/Users/{{ansible_user}}/Documents"
+      BibtexSync.path: "/Users/{{user_name}}/Documents"
       BibtexSync.syncMode: SingleFile
 
       Features.coloredAnnotations: true

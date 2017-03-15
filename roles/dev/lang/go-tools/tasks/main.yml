@@ -2,9 +2,9 @@
 - name: install
   command: go get {{item.pkg}}
   args:
-    creates: /Users/{{ansible_user}}/.go/bin/{{item.bin}}
+    creates: /Users/{{user_name}}/.go/bin/{{item.bin}}
   environment:
-    GOPATH: /Users/{{ansible_user}}/.go
+    GOPATH: /Users/{{user_name}}/.go
   with_items:
     - pkg: golang.org/x/tools/cmd/godex
       bin: godex
