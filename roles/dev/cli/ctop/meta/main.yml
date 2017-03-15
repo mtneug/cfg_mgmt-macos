@@ -1,0 +1,4 @@
+---
+dependencies:
+  - role: dev/lang/go
+  - role: sys/cli/docker
