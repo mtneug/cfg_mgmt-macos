@@ -5,28 +5,27 @@
 - name: install packages
   apm: name={{item}}
   with_items:
-    # TODO: select relevant packages
-
     # UI
-    # - atom-material-ui
+    - atom-material-ui
     - nord-atom-ui
-    # - nucleus-dark-ui
+    - nucleus-dark-ui
 
     # Syntax theme
-    # - duotone-dark-earth-syntax
-    # - duotone-dark-space-syntax
-    # - earthsung-by-jackson-syntax
-    # - filter-syntax
-    # - gruvbox
+    - duotone-dark-earth-syntax
+    - duotone-dark-space-syntax
+    - earthsung-by-jackson-syntax
+    - filter-syntax
+    - gruvbox
     - nord-atom-syntax
-    # - pen-paper-coffee-syntax
-    # - redui-jm-syntax
-    # - vector-syntax
+    - pen-paper-coffee-syntax
+    - redui-jm-syntax
+    - vector-syntax
 
     # Other design elements
     - file-icons
 
     # Languages
+    - atom-jinja2
     - language-apache
     - language-asciidoc
     - language-danger
@@ -52,84 +51,72 @@
 
     # Linter
     - linter
-    # - linter-clang
-    # - linter-cpplint
-    # - linter-csslint
-    # - linter-eslint
-    # - linter-flake8
-    # - linter-htmlhint
-    # - linter-javac
+    - linter-clang
+    - linter-cpplint
+    - linter-eslint
+    # - linter-flake8         -> brew install flake8
+    - linter-htmlhint
+    - linter-javac
     - linter-js-yaml
-    # - linter-jscs
     - linter-jshint
-    # - linter-lintr
-    # - linter-pylint
-    # - linter-rubocop
+    # - linter-lintr          -> install.packages("lintr")
+    # - linter-pylint         -> pip install pylint
+    - linter-rubocop
     - linter-ruby
-    # - linter-scalac
-    # - linter-scss-lint
     - linter-shellcheck
     - linter-spell
     - linter-spell-html
     - linter-spell-latex
     - linter-write-good
-    # - linter-xmllint
-    # - gometalinter-linter
+    - linter-xmllint
 
     # Builder
     - build
     - build-make
 
     # Autocompleter
-    # - autocomplete-emojis
+    - autocomplete-emojis
     - autocomplete-look
     - autocomplete-paths
     - autocomplete-python
 
     # Minimap
     - minimap
-    # - minimap-find-and-replace
-    # - minimap-git-diff
-    # - minimap-highlight-selected
-    # - minimap-pigments
-    # - minimap-selection
+    - minimap-find-and-replace
+    - minimap-git-diff
+    - minimap-highlight-selected
+    - minimap-pigments
 
     # Text-clicking UI
-    # - hyperclick
-    # - go-hyperclick
+    - hyperclick
+    - js-hyperclick
 
     # Snippets
     - gitignore-snippets
 
     # Go
-    # - builder-go
-    # - go-config
-    # - go-debug
-    # - go-get
-    # - gofmt
-    # - gorename
+    - go-plus
 
     # Web
     - autoclose-html
     - bezier-curve-editor
     - color-picker
 
-    # Markup language
-    # - markdown-pdf
-    # - markdown-preview-plus
+    # Markdown
+    - markdown-preview-plus
 
     # Atom Editor
     - atom-alignment
     - atom-beautify
     - block-travel
-    # - docblockr
-    # - editorconfig
+    - docblockr
+    - editorconfig
     - highlight-selected
     - pulsing-cursor
     - pigments
     - trailing-spaces
     - transform
-    # - vim-mode
+    - vim-mode
 
     # Atom Statusbar
     - busy
