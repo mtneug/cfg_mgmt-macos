@@ -36,7 +36,6 @@
 
     - sys/gui/au-lab
     - sys/gui/menumeters
-    - sys/gui/trim-enabler
     - sys/gui/xquartz
 
     - sys/misc/fonts
