@@ -22,6 +22,7 @@ Host *
  UseKeychain yes
  IdentityFile ~/.ssh/id_git
 EOF
+ssh-add -K ~/.ssh/id_rsa
 cat ~/.ssh/id_git.pub | pbcopy
 
 echo "==> The new public key was placed into your clipboard"
@@ -32,7 +33,7 @@ read
 
 # install homebrew
 echo "==> Installing Homebrew"
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew tap homebrew/dupes
 
 # install Ansible
