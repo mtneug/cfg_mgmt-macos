@@ -22,7 +22,7 @@ Host *
  UseKeychain yes
  IdentityFile ~/.ssh/id_git
 EOF
-ssh-add -K ~/.ssh/id_rsa
+ssh-add -K ~/.ssh/id_git
 cat ~/.ssh/id_git.pub | pbcopy
 
 echo "==> The new public key was placed into your clipboard"
