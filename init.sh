@@ -34,7 +34,6 @@ read
 # install homebrew
 echo "==> Installing Homebrew"
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew tap homebrew/dupes
 
 # install Ansible
 echo "==> Installing Ansible"
