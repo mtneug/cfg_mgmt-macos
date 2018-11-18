@@ -37,7 +37,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 # install Ansible
 echo "==> Installing Ansible"
-brew install python --universal
+brew install python
 brew install ansible
 
 # clone Ansible repo
