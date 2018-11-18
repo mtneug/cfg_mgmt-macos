@@ -7,7 +7,7 @@ My personal macOS configuration. These playbooks contain some assumptions about 
 ## 01. Init setup
 
 ```sh
-$ bash -c "$(https://raw.githubusercontent.com/mtneug/cfg_mgmt-macos/master/init.sh)"
+$ bash -c "$(curl -fsSL https://raw.githubusercontent.com/mtneug/cfg_mgmt-macos/master/init.sh)"
 ```
 
 ## 02. Run playbook
